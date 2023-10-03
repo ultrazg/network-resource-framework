@@ -1,0 +1,292 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container {
+  width: 375px;
+  height: 420px;
+  // background: url('../../images/dialogNewBg.png') no-repeat;
+  // background-size: 100% 100%;
+  padding: 20px;
+  .routeBox {
+    width: 100%;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    // -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #5d97bd;
+    }
+    &::-webkit-scrollbar-thumb:window-inactive {
+      background: #5d97bd;
+    }
+    .routerItem {
+      position: relative;
+      margin-bottom: 20px;
+      white-space: nowrap;
+
+      :nth-child(n + 2) {
+        margin-left: 20px;
+      }
+      .tree {
+        display: inline-block;
+        span {
+          position: relative;
+          &:before {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: -18px;
+            //   right: 50%;s
+            width: 100%;
+            height: 15px;
+            border-right: 1px solid #056684;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: -37px;
+            //   right: 50%;
+            width: 61px;
+            border-top: 1px solid #056684;
+          }
+
+          &:first-child {
+            &:before {
+              content: '';
+              position: absolute;
+              top: -15px;
+              left: -18px;
+              //   right: 50%;s
+              height: 15px;
+              border-top: none;
+              border-right: 1px solid #056684;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              top: -15px;
+              left: 24px;
+              //   right: 50%;
+              width: 0;
+              border-top: 1px solid #056684;
+            }
+          }
+          &:last-child {
+            &:before {
+              content: '';
+              position: absolute;
+              top: -15px;
+              left: -19px;
+              //   right: 50%;s
+              width: 100%;
+              height: 15px;
+              border-right: 1px solid #056684;
+            }
+            &:after {
+              content: '';
+              position: absolute;
+              top: -15px;
+              left: -37px;
+              //   right: 50%;
+              width: 60px;
+              border-top: 1px solid #056684;
+            }
+          }
+        }
+      }
+      .treeItem {
+        position: relative;
+        &:first-of-type {
+          &::after {
+            border-top: none !important;
+          }
+        }
+      }
+      .title {
+        display: inline-block;
+        padding: 4px;
+        border: 1px solid #008dff;
+        border-left: none;
+        border-right: none;
+        border-image: linear-gradient(
+            270deg,
+            #002d63 0%,
+            #008dff 50%,
+            #002d63 100%
+          )
+          1 1;
+        background-image: linear-gradient(
+          270deg,
+          rgba(0, 45, 99, 0) 0%,
+          rgba(0, 45, 99, 0.4) 35%,
+          rgba(0, 45, 99, 0.4) 74%,
+          rgba(0, 45, 99, 0) 100%
+        );
+      }
+      .firstRouter {
+        color: #00ebea;
+        position: relative;
+        &:after {
+          position: absolute;
+          content: '';
+          height: 20px;
+          top: 20px;
+          left: 23px;
+          border-left: 1px solid #056684;
+        }
+      }
+      .activeItem {
+        color: #00ebea;
+      }
+    }
+    .oneItem {
+      span {
+        &:after {
+          content: '';
+          position: absolute;
+          top: -15px;
+          left: 18px;
+          //   right: 50%;
+          width: 56px;
+          border-top: none !important;
+        }
+      }
+    }
+  }
+  .line {
+    display: inline-block;
+    width: 100%;
+    // height: 1px;
+    border: 1px solid rgba(19, 78, 179, 0.51);
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  }
+  .routerTitle {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px 0 16px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    img {
+      width: 8px;
+      height: 11px;
+      margin-right: 16px;
+    }
+  }
+  .bandList {
+    ul {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        img {
+          width: 20px;
+          height: 15px;
+          margin-right: 10px;
+        }
+        .label {
+          color: #00c5f5;
+          margin-right: 15px;
+        }
+        .percentage {
+          color: #00fcff;
+        }
+      }
+    }
+  }
+  .swBox {
+    // margin-top: 24px;
+    .swItem {
+      font-size: 16px;
+      display: flex;
+      //   align-items: center;
+
+      p {
+        margin: 0;
+      }
+      span {
+        color: #00c5f5;
+      }
+      .iconItem {
+        position: relative;
+        background: url('../../images/resource-sw.png') no-repeat;
+        background-size: 100% 100%;
+        margin-right: 8px;
+        width: 120px;
+        height: 26px;
+
+        span {
+          display: inline-block;
+          width: auto;
+          max-width: 50px;
+          font-size: 12px;
+          position: absolute;
+          right: 12px;
+          top: 4px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .infoContent {
+      // flex: 1;
+      width: calc(100% - 120px);
+      p,
+      span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .portName {
+        color: #00c5f5;
+      }
+    }
+    .swTree {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        //   right: 50%;s
+        width: 2px;
+        height: 48px;
+        border-right: 1px solid #056684;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        right: auto;
+        left: 30px;
+        bottom: -16px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #45beff;
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "province": "440000000000",
+      "open_flag": "1",
+      "num": 11659,
+      "province_name": "广东省"
+    },
+    {
+      "province": "330000000000",
+      "open_flag": "1",
+      "num": 10936,
+      "province_name": "浙江省"
+    },
+    {
+      "province": "130000000000",
+      "open_flag": "1",
+      "num": 9880,
+      "province_name": "河北省"
+    },
+    {
+      "province": "370000000000",
+      "open_flag": "1",
+      "num": 7327,
+      "province_name": "山东省"
+    },
+    {
+      "province": "110000000000",
+      "open_flag": "1",
+      "num": 6756,
+      "province_name": "北京市"
+    },
+    {
+      "province": "510000000000",
+      "open_flag": "1",
+      "num": 6721,
+      "province_name": "四川省"
+    },
+    {
+      "province": "320000000000",
+      "open_flag": "1",
+      "num": 6624,
+      "province_name": "江苏省"
+    },
+    {
+      "province": "420000000000",
+      "open_flag": "1",
+      "num": 5748,
+      "province_name": "湖北省"
+    },
+    {
+      "province": "410000000000",
+      "open_flag": "1",
+      "num": 4898,
+      "province_name": "河南省"
+    },
+    {
+      "province": "310000000000",
+      "open_flag": "1",
+      "num": 4681,
+      "province_name": "上海市"
+    },
+    {
+      "province": "340000000000",
+      "open_flag": "1",
+      "num": 4501,
+      "province_name": "安徽省"
+    },
+    {
+      "province": "430000000000",
+      "open_flag": "1",
+      "num": 3941,
+      "province_name": "湖南省"
+    },
+    {
+      "province": "140000000000",
+      "open_flag": "1",
+      "num": 3572,
+      "province_name": "山西省"
+    },
+    {
+      "province": "350000000000",
+      "open_flag": "1",
+      "num": 3494,
+      "province_name": "福建省"
+    },
+    {
+      "province": "150000000000",
+      "open_flag": "1",
+      "num": 2987,
+      "province_name": "内蒙古自治区"
+    },
+    {
+      "province": "520000000000",
+      "open_flag": "1",
+      "num": 2465,
+      "province_name": "贵州省"
+    },
+    {
+      "province": "210000000000",
+      "open_flag": "1",
+      "num": 2448,
+      "province_name": "辽宁省"
+    },
+    {
+      "province": "530000000000",
+      "open_flag": "1",
+      "num": 2331,
+      "province_name": "云南省"
+    },
+    {
+      "province": "230000000000",
+      "open_flag": "1",
+      "num": 2128,
+      "province_name": "黑龙江省"
+    },
+    {
+      "province": "120000000000",
+      "open_flag": "1",
+      "num": 1916,
+      "province_name": "天津市"
+    },
+    {
+      "province": "610000000000",
+      "open_flag": "1",
+      "num": 1910,
+      "province_name": "陕西省"
+    },
+    {
+      "province": "360000000000",
+      "open_flag": "1",
+      "num": 1736,
+      "province_name": "江西省"
+    },
+    {
+      "province": "650000000000",
+      "open_flag": "1",
+      "num": 1522,
+      "province_name": "新疆维吾尔自治区"
+    },
+    {
+      "province": "450000000000",
+      "open_flag": "1",
+      "num": 1262,
+      "province_name": "广西壮族自治区"
+    },
+    {
+      "province": "500000000000",
+      "open_flag": "1",
+      "num": 1219,
+      "province_name": "重庆市"
+    },
+    {
+      "province": "220000000000",
+      "open_flag": "1",
+      "num": 934,
+      "province_name": "吉林省"
+    },
+    {
+      "province": "460000000000",
+      "open_flag": "1",
+      "num": 887,
+      "province_name": "海南省"
+    },
+    {
+      "province": "620000000000",
+      "open_flag": "1",
+      "num": 580,
+      "province_name": "甘肃省"
+    },
+    {
+      "province": "640000000000",
+      "open_flag": "1",
+      "num": 221,
+      "province_name": "宁夏回族自治区"
+    },
+    {
+      "province": "630000000000",
+      "open_flag": "1",
+      "num": 195,
+      "province_name": "青海省"
+    },
+    {
+      "province": "540000000000",
+      "open_flag": "1",
+      "num": 195,
+      "province_name": "西藏自治区"
+    }
+  ]
+}

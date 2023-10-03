@@ -1,0 +1,69 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.container {
+  font-size: 14px;
+  ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 322px;
+      height: 76px;
+      padding: 16px;
+      margin-bottom: 24px;
+      margin-right: 24px;
+      cursor: pointer;
+      background-image: linear-gradient(
+        0deg,
+        rgba(0, 67, 111, 0) 0%,
+        #00436f 100%
+      );
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    .contentBox {
+      display: flex;
+
+      p {
+        max-height: 76px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        margin-left: 10px;
+      }
+      span {
+        color: #1c92ff;
+      }
+    }
+    .timeBox {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      color: #00c5f5;
+    }
+    .timeText {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .downLoadIcon {
+      color: #3dfbff;
+      cursor: pointer;
+    }
+  }
+}

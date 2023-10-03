@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "telecom": [
+      { "name": "安徽", "total": 6783, "share": 5975 },
+      { "name": "北京", "total": 4968, "share": 4980 },
+      { "name": "福建", "total": 9320, "share": 9312 },
+      { "name": "甘肃", "total": 5136, "share": 5142 },
+      { "name": "广东", "total": 17940, "share": 15752 },
+      { "name": "广西", "total": 8709, "share": 8815 },
+      { "name": "贵州", "total": 6793, "share": 6797 },
+      { "name": "海南", "total": 2626, "share": 2572 },
+      { "name": "河北", "total": 365, "share": 349 },
+      { "name": "河南", "total": 1489, "share": 1459 },
+      { "name": "湖北", "total": 2110, "share": 4621 },
+      { "name": "湖南", "total": 6096, "share": 6078 },
+      { "name": "江苏", "total": 17874, "share": 11994 },
+      { "name": "江西", "total": 8114, "share": 8117 },
+      { "name": "宁夏", "total": 2623, "share": 2614 },
+      { "name": "青海", "total": 1034, "share": 1012 },
+      { "name": "山东", "total": 1125, "share": 1126 },
+      { "name": "陕西", "total": 6720, "share": 4601 },
+      { "name": "上海", "total": 5087, "share": 5061 },
+      { "name": "四川", "total": 10710, "share": 10630 },
+      { "name": "天津", "total": 1763, "share": 1764 },
+      { "name": "西藏", "total": 468, "share": 468 },
+      { "name": "新疆", "total": 2800, "share": 2615 },
+      { "name": "云南", "total": 7030, "share": 7030 },
+      { "name": "浙江", "total": 9379, "share": 9373 },
+      { "name": "重庆", "total": 4657, "share": 4643 }
+    ],
+    "unicom": [
+      { "name": "安徽", "total": 17, "share": 0 },
+      {
+        "name": "北京",
+        "total": 12593,
+        "share": 12563
+      },
+      {
+        "name": "广东",
+        "total": 28408,
+        "share": 27810
+      },
+      {
+        "name": "河北",
+        "total": 13005,
+        "share": 11674
+      },
+      {
+        "name": "河南",
+        "total": 21822,
+        "share": 21625
+      },
+      {
+        "name": "黑龙",
+        "total": 7080,
+        "share": 6976
+      },
+      {
+        "name": "湖北",
+        "total": 1905,
+        "share": 1904
+      },
+      {
+        "name": "湖南",
+        "total": 1803,
+        "share": 1709
+      },
+      {
+        "name": "吉林",
+        "total": 6243,
+        "share": 6233
+      },
+      {
+        "name": "江苏",
+        "total": 4805,
+        "share": 4705
+      },
+      {
+        "name": "辽宁",
+        "total": 13061,
+        "share": 13049
+      },
+      {
+        "name": "内蒙古",
+        "total": 5937,
+        "share": 5928
+      },
+      {
+        "name": "山东",
+        "total": 24646,
+        "share": 24573
+      },
+      {
+        "name": "山西",
+        "total": 10476,
+        "share": 9348
+      },
+      {
+        "name": "上海",
+        "total": 5960,
+        "share": 5917
+      },
+      {
+        "name": "四川",
+        "total": 3778,
+        "share": 3775
+      },
+      {
+        "name": "天津",
+        "total": 5740,
+        "share": 4643
+      },
+      {
+        "name": "浙江",
+        "total": 13640,
+        "share": 13599
+      },
+      {
+        "name": "重庆",
+        "total": 4917,
+        "share": 4886
+      }
+    ]
+  }
+}

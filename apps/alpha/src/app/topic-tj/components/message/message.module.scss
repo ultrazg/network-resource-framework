@@ -1,0 +1,40 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.messageStyle {
+  :global {
+    .ant-message-notice-content {
+      width: 225px;
+      height: 44px;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 180, 31, 0) 1%,
+        rgba(255, 180, 31, 1) 55.00000000000001%,
+        rgba(255, 180, 31, 0) 100%
+      );
+      border: 2px solid rgba(255, 180, 31, 1);
+      border-left: none;
+      border-right: none;
+      border-image: linear-gradient(
+          90deg,
+          rgba(255, 180, 31, 0) 1%,
+          rgba(255, 180, 31, 1) 55.00000000000001%,
+          rgba(255, 180, 31, 0) 100%
+        )
+        1;
+      padding: 0;
+      color: #fff;
+      .ant-message-custom-content {
+        height: 100%;
+        // line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+.container{
+    :global{
+        .bmap-container{
+            background-image: none !important;
+        }
+        .BMap_mask{
+            // background: #0a314f !important;
+        }
+        .anchorBL{
+            display: none;
+        }
+        .BMapLabel{
+            path {
+                // mix-blend-mode: exclusion;
+            }
+        }
+    }
+}

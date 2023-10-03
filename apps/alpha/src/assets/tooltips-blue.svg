@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 15" class="design-iconfont">
+  <defs>
+    <linearGradient x1="54.8876908%" y1="31.2385647%" x2="50%" y2="80.9051975%" id="blmeh5zp2__nhxpinfnma">
+      <stop stop-color="#00B6FF" offset="0%"/>
+      <stop stop-color="#00B7D1" stop-opacity="0" offset="99.9158312%"/>
+    </linearGradient>
+    <linearGradient x1="51.8268023%" y1="29.2507721%" x2="59.3376845%" y2="74.5969006%" id="blmeh5zp2__b8xynvc3hb">
+      <stop stop-color="#00FFE1" offset="0%"/>
+      <stop stop-color="#00B7D1" stop-opacity="0" offset="99.9158312%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#00FFE1" stroke-width=".5" opacity=".3574989" d="M0 8.08078768L9.58443404 14 19.3064632 8.34384372 9.77732076 2.16157536z" transform="translate(1.074983)"/>
+    <path stroke="#00FFE1" stroke-width=".5" opacity=".80000001" d="M1.09202697 7.58566606L9.58443404 13.0097568 18.4626146 7.80090786 9.58443404 2.16157536z" transform="translate(1.074983)"/>
+    <path fill="#00FDFF" d="M4.88077863 2.48878292L9.58443404 5.45951265 14.2880895 2.82867769 9.65323159 0z" transform="translate(1.074983)"/>
+    <path fill="url(#blmeh5zp2__nhxpinfnma)" d="M4.88077863 2.48878292L9.58443404 5.45951265 9.58443404 12.0136203 4.88077863 9.21067591z" transform="translate(1.074983)"/>
+    <path fill="url(#blmeh5zp2__b8xynvc3hb)" d="M9.58443404 5.45951265L14.2880895 2.82867769 14.2880895 8.92668928 9.58443404 12.0136203z" transform="translate(1.074983)"/>
+  </g>
+</svg>

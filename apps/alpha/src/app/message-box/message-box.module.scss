@@ -1,0 +1,86 @@
+.message-container {
+  position: fixed;
+  top: calc(50% - 95px);
+  right: calc(50% - 185px);
+
+  height: 190px;
+  width: 370px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 999;
+}
+.exit-icon {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+
+  height: 14px;
+  width: 14px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  z-index: 1000;
+}
+.main-icon {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  width: 64px;
+  height: 95px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64px 100%;
+}
+.title {
+  position: absolute;
+  top: 60px;
+  left: 148px;
+
+  line-height: 40px;
+  font-size: 36px;
+  font-family: 'PMZD', sans-serif;
+
+  background: linear-gradient(180deg, #1cdce4 0%, #0c83ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.content {
+  position: absolute;
+  top: 114px;
+  left: 148px;
+
+  font-size: 14px;
+  line-height: 20px;
+
+  color: white;
+  font-family: 'PMZD', sans-serif;
+}
+.fly-in {
+  transition: transform 200ms ease-out, opacity 200ms ease-in-out;
+  opacity: 1;
+  animation: flyIn 0.3s linear;
+}
+.fly-out {
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 300ms linear 100ms, opacity 300ms ease-in-out;
+  animation: flyOut 0.3s linear;
+}
+@keyframes flyIn {
+  from {
+    opacity: 0.8;
+    transform: scale(0);
+  }
+}
+@keyframes flyOut {
+  from {
+    opacity: 1;
+  }
+}

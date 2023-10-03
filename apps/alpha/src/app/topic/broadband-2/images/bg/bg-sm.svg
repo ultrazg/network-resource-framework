@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 40" class="design-iconfont">
+
+  <defs>
+    <clipPath id="svgPath">
+      <path
+        d="M89.8488372,0.5 L89.8488372,30.0784359 L81.2301328,39.5 L0.5,39.5 L0.5,1.313137 L2.27450122,0.5 L89.8488372,0.5 Z"
+        fill="#010E37" stroke="#033287" fill-rule="evenodd" fill-opacity=".8019311"/>
+
+    </clipPath>
+  </defs>
+  <path
+    d="M89.8488372,0.5 L89.8488372,30.0784359 L81.2301328,39.5 L0.5,39.5 L0.5,1.313137 L2.27450122,0.5 L89.8488372,0.5 Z"
+    fill="#010E37" stroke="#033287" fill-rule="evenodd" fill-opacity=".8019311"/>
+
+</svg>

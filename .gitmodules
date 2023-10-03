@@ -1,0 +1,6 @@
+[submodule "apps/alpha/src/app/topic-tj"]
+	path = apps/alpha/src/app/topic-tj
+	url = http://10.186.0.17:8080/tfs/NETRDCollection/%E8%B5%84%E6%BA%90%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%AD%E5%BF%83%E9%A1%B9%E7%9B%AE/_git/network-resource-vis-topic-tongjian
+[submodule "apps/alpha/src/app/topic-dwlp"]
+	path = apps/alpha/src/app/topic-dwlp
+	url = http://10.186.0.17:8080/tfs/NETRDCollection/%E8%B5%84%E6%BA%90%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B8%AD%E5%BF%83%E9%A1%B9%E7%9B%AE/_git/network-resource-vis-topic-diweilepu

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="26px" viewBox="0 0 85 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none meet">
+    <title>总览</title>
+    <defs>
+        <linearGradient x1="102.049198%" y1="50%" x2="64.1410668%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#090B35" stop-opacity="0.474438541" offset="32.4616223%"></stop>
+            <stop stop-color="#05084C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="97.8005171%" y1="50%" x2="35.0164581%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFD00" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FDFF00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资源可视化6.0-国际资源" transform="translate(-1070.000000, -534.000000)" fill="url(#linearGradient-1)" stroke="url(#linearGradient-2)">
+            <g id="编组-9备份-8" transform="translate(1071.000000, 535.000000)">
+                <polygon id="总览" transform="translate(41.609345, 12.000000) scale(1, -1) translate(-41.609345, -12.000000) " points="0 0 0 15.4686697 9.49298985 24 83.2186906 24 83.2186906 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

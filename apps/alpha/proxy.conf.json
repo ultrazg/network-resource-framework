@@ -1,0 +1,25 @@
+{
+  "/api": {
+    "target": "http://10.186.255.206/",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/rpapi": {
+    "target": "http://10.186.255.206/",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/nrvc-data": {
+    "target": "http://172.24.122.63:9000/nrvc-data/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/nrvc-data": ""
+    }
+  },
+  "/oss": {
+    "target": "http://10.245.6.129:8068",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

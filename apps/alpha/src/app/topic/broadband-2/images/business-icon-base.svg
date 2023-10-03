@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 92" class="design-iconfont">
+  <defs>
+    <linearGradient x1="50%" y1="6.5098149%" x2="50%" y2="100%" id="k1zzbugv3__scf4ptteha">
+      <stop stop-color="#0048B3" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#0079D8" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#006CD8" stroke-width=".5" fill-opacity=".19826097" fill="#006CFF"
+          d="M37.0247934 69.67148759999999A36.7747934 10.857438 0 1 0 37.0247934 91.3863636A36.7747934 10.857438 0 1 0 37.0247934 69.67148759999999Z"
+          transform="translate(.225207 .331417)"/>
+    <path
+      d="M0,0 L74.0495868,0 L74.0495868,76.2744712 C68.3540672,70.4491989 55.8992437,67.5365627 36.6851164,67.5365627 C17.4709891,67.5365627 5.24261692,70.4491989 0,76.2744712 L0,0 Z"
+      fill="url(#k1zzbugv3__scf4ptteha)" opacity=".50015113" transform="translate(.225207 .331417)"/>
+  </g>
+</svg>

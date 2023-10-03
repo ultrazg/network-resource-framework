@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "alpha": "apps/alpha",
+    "animate-number": "libs/animate-number",
+    "block": "libs/block",
+    "chart": "libs/chart"
+  }
+}

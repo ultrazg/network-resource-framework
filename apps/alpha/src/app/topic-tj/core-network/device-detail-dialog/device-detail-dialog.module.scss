@@ -1,0 +1,93 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container {
+  font-size: 14px;
+  color: #fff;
+
+  p {
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    li {
+      width: 50%;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #00fcff;
+  }
+
+  .deviceName {
+    margin: 20px 0;
+  }
+
+  .detailHeader {
+    padding: 10px 0 10px 17px;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 88, 167, 1) 0%,
+        rgba(0, 88, 167, 0.2) 100%
+    );
+    border: 1px solid #00cdff;
+    border-image: linear-gradient(
+        90deg,
+        rgba(0, 205, 255, 1) 0%,
+        rgba(0, 205, 255, 0) 100%
+    ) 1 1;
+    border-right: none;
+  }
+
+  .detailList {
+    margin-top: 15px;
+
+    ul {
+
+      li {
+        display: flex;
+
+        .listIcon {
+          flex: 1;
+          display: inline-block;
+          background-size: 100% 100%;
+
+          img {
+            display: block;
+            width: 18px;
+            height: 20px;
+            margin-right: 5px;
+          }
+        }
+
+        .listLabel {
+          color: #01aedc;
+        }
+
+        .listValue {
+          flex: 12;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

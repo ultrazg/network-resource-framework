@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>网络资源可视化中心</title>
+  <base href="/"/>
+
+  <meta
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    name="viewport"
+  />
+  <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+
+  <link href="./assets/icons/message/iconfont.css" rel="stylesheet"/>
+  <link href="./assets/iconfont/iconfont.css" rel="stylesheet"/>
+  <!-- 通建字体图标文件 -->
+  <link href="./assets/tj-iconfont/iconfont.css" rel="stylesheet"/>
+  <script src="./assets/tj-iconfont/iconfont.js"></script>
+
+  <!-- 百度地图内部gis -->
+  <script
+    src="//10.168.11.225:8081/baidumap/bmapgl/api/booter.js"
+  ></script>
+
+  <!-- 内部mapVGL -->
+  <!-- <script
+  src="//10.168.11.225:8081/baidumap/bmapgl/mapvgl/dist/mapvgl.min.js"
+  integrity="sha384-z9gYoQYVSyeSN7wYqRMGtfE0LFMJroNbX3ok+mZ8I9V8OPlddhg7UB3OKSIN/S2U"
+  crossorigin="anonymous"
+></script> -->
+  <script
+    src="./assets/public/mapVGL.js"
+  ></script>
+  <script
+    src="//10.168.11.225:8081/baidumap/bmapgl/mapvgl/dist/mapvgl.threelayers.min.js"
+  ></script>
+
+  <script src="assets/public/MarkerClusterer.js"></script>
+  <script src="assets/public/TextIconOverlay.js"></script>
+</head>
+
+<body>
+<div id="root"></div>
+
+<iframe
+  height="0"
+  loading="lazy"
+  src="//10.186.255.206/resourceCenter/#/mapInit"
+  style="visibility: hidden; position: absolute; top: 0"
+  title="frame preload"
+  width="0"
+></iframe>
+</body>
+</html>

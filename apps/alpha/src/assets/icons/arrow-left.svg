@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" reserveAspectRatio="none meet">
+    <title>箭头_页面_向右备份</title>
+    <defs>
+        <filter x="-14.5%" y="-12.3%" width="128.9%" height="126.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.982621626   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资源可视化6.0-接入网" transform="translate(-192.000000, -551.000000)" fill-rule="nonzero">
+            <g id="编组-19备份" filter="url(#filter-1)" transform="translate(190.000000, 557.000000)">
+                <g id="箭头_页面_向右备份" transform="translate(17.300000, 9.000000) scale(-1, 1) translate(-17.300000, -9.000000) translate(11.300000, 3.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                    <path d="M5.05,5.75 L3,7.8 L3.7,8.5 L6.45,5.75 L3.7,3 L3,3.7 L5.05,5.75 Z M8.05,5.75 L6,7.8 L6.7,8.5 L9.45,5.75 L6.75,3 L6,3.7 L8.05,5.75 Z" id="形状" fill="#00FEFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

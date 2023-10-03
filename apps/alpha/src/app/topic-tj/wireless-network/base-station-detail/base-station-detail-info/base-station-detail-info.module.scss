@@ -1,0 +1,20 @@
+.infoList {
+    margin-top: 15px;
+
+    .simpleList {
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 14px;
+        .basicText{
+            font-size: 14px;
+            font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+            font-weight: 400;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+}

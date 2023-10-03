@@ -1,0 +1,113 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container {
+    height: calc(100% - 300px);
+    .rack-top {
+        display: flex;
+        justify-content: space-between;
+        .rack-top-item {
+            color: rgba(255,255,255,1);
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "PangMenZhengDao", sans-serif;
+            width: 100px;
+            text-align: center;
+            &:nth-child(1) {
+                .rack-top-value {
+                    background: url("../images/totalRack.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            &:nth-child(2) {
+                .rack-top-value {
+                    background: url("../images/occupy.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            &:nth-child(3) {
+                .rack-top-value {
+                    background: url("../images/free.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+            .rack-top-value {
+                height: 80px;
+            }
+            .rack-top-label {
+                background: linear-gradient(90deg, rgba(7,34,67,0) 0%, rgba(0,124,255,1) 40%, rgba(0,124,255,0.74) 60%, rgba(9,34,68,0) 100%);
+                margin: 10px 0 30px;
+            }
+        }
+    }
+    .rack-body {
+        height: 500px;
+        padding-bottom: 19px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        /* 设置滚动条的样式 */
+        &::-webkit-scrollbar {
+            width: 5px;
+            // background-color: #712;
+        }
+
+        /* 滚动槽 */
+        &::-webkit-scrollbar-track {
+            // -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+            border-radius: 4px;
+            // background-color: #77ff;
+        }
+
+        /* 滚动条滑块 */
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: #5d97bd;
+            // -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+        }
+
+        &::-webkit-scrollbar-thumb:window-inactive {
+            background: #5d97bd;
+        }
+        .rack-item-body {
+            display: flex;
+            flex-flow: wrap;
+            // justify-content: space-between;
+            .item-body {
+                color: rgba(255, 255, 255, 1);
+                width: 42px;
+                height: 35px;
+                border-radius: 4px;
+                opacity: 1;
+                font-size: 12px;
+                text-align: center;
+                line-height: 35px;
+                margin: 3px;
+                // border: 1px solid;
+                cursor: pointer;
+                white-space:nowrap;        // 强制一行显示
+                overflow:hidden;          // 超出隐藏
+                text-overflow:ellipsis;
+                margin-right: 9px;
+                &:nth-of-type(8n) {
+                    margin-right: 0;
+                }
+            }
+            .item-body-occupy {
+                background: url("../images/rack-occupy.png") no-repeat;
+                background-size: 100%;
+            }
+            .item-body-free {
+                background: url("../images/rack-free.png") no-repeat;
+                background-size: 100%;
+            }
+            .bgcStyle {
+                background: url("../images/rack-on.png") no-repeat;
+                background-size: 100%;
+            }
+        }
+    }
+}

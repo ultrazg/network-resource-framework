@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279 44" class="design-iconfont">
+  <defs>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hbw4sl0ma__vmaklg05ua">
+      <stop stop-color="#ED202D" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#91030C" stop-opacity=".93722684" offset="35.8637456%"/>
+      <stop stop-color="#91030C" offset="59.9295236%"/>
+      <stop stop-color="#ED202D" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hbw4sl0ma__bj94y21gkb">
+      <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#FFF" stop-opacity=".06812719" offset="48.9214211%"/>
+      <stop stop-color="#FFF" stop-opacity=".01999563" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hbw4sl0ma__wq2ihlf39c">
+      <stop stop-color="#ED202D" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#E21124" offset="50.8304196%"/>
+      <stop stop-color="#F74359" stop-opacity=".04460774" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#hbw4sl0ma__vmaklg05ua)" opacity=".55661737" d="M0 0H279V41H0z" transform="translate(0 1)"/>
+    <path
+      d="M31,0 L15.5,35 L0,35 L15.5,0 L31,0 Z M51,0 L35.5,35 L20,35 L35.5,0 L51,0 Z M72,0 L56.5,35 L41,35 L56.5,0 L72,0 Z M93,0 L77.5,35 L62,35 L77.5,0 L93,0 Z M114,0 L98.5,35 L83,35 L98.5,0 L114,0 Z M135,0 L119.5,35 L104,35 L119.5,0 L135,0 Z M156,0 L140.5,35 L125,35 L140.5,0 L156,0 Z M177,0 L161.5,35 L146,35 L161.5,0 L177,0 Z M198,0 L182.5,35 L167,35 L182.5,0 L198,0 Z M219,0 L203.5,35 L188,35 L203.5,0 L219,0 Z M240,0 L224.5,35 L209,35 L224.5,0 L240,0 Z"
+      transform="translate(19 4)" fill="url(#hbw4sl0ma__bj94y21gkb)"/>
+    <path stroke="url(#hbw4sl0ma__wq2ihlf39c)" stroke-width="2" d="M7.5 0.5L269.5 0.5" transform="translate(0 1)"/>
+    <path stroke="url(#hbw4sl0ma__wq2ihlf39c)" stroke-width="2" d="M7.5 41.5L269.5 41.5" transform="translate(0 1)"/>
+  </g>
+</svg>

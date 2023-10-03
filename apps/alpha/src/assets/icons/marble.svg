@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="84px" viewBox="0 0 80 84" version="1.1">
+  <title>气泡</title>
+  <defs>
+    <radialGradient cx="21.8956871%" cy="13.4220741%" fx="21.8956871%" fy="13.4220741%" r="92.3529235%" id="radialGradient-1">
+      <stop stop-color="#2B54A6" offset="0%"></stop>
+      <stop stop-color="#30197B" stop-opacity="0.604449506" offset="28.3737503%"></stop>
+      <stop stop-color="#177EB5" stop-opacity="0.497894927" offset="66.8393862%"></stop>
+      <stop stop-color="#1A28C6" offset="100%"></stop>
+    </radialGradient>
+    <radialGradient cx="17.2775459%" cy="13.6577715%" fx="17.2775459%" fy="13.6577715%" r="99.5235596%" id="radialGradient-2">
+      <stop stop-color="#FFFFFF" offset="0%"></stop>
+      <stop stop-color="#222E64" stop-opacity="0.498921855" offset="45.8553163%"></stop>
+      <stop stop-color="#F9FBFF" offset="100%"></stop>
+    </radialGradient>
+    <circle id="path-3" cx="40" cy="40" r="40"></circle>
+    <filter x="-8.1%" y="-8.1%" width="116.2%" height="116.2%" filterUnits="objectBoundingBox" id="filter-4">
+      <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+      <feGaussianBlur stdDeviation="5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+      <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+      <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.517128257 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+    </filter>
+    <linearGradient x1="58.1279059%" y1="4.56177717%" x2="58.1279059%" y2="60.3089148%" id="linearGradient-5">
+      <stop stop-color="#2EF3F5" offset="0%"></stop>
+      <stop stop-color="#7ADBFF" stop-opacity="0.553583745" offset="56.5354681%"></stop>
+      <stop stop-color="#3037C6" stop-opacity="0" offset="98.5101446%"></stop>
+    </linearGradient>
+    <filter x="-10.7%" y="-10.7%" width="121.4%" height="121.4%" filterUnits="objectBoundingBox" id="filter-6">
+      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+    </filter>
+    <linearGradient x1="22.8026476%" y1="14.3752361%" x2="84.1175757%" y2="80.2417883%" id="linearGradient-7">
+      <stop stop-color="#D9E9F3" offset="0%"></stop>
+      <stop stop-color="#7ADBFF" stop-opacity="0.356814084" offset="56.5354681%"></stop>
+      <stop stop-color="#3037C6" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="资源可视化6.0" transform="translate(-399.000000, -922.000000)">
+      <g id="编组-25" transform="translate(140.000000, 821.000000)">
+        <g id="编组-13" transform="translate(4.000000, 72.000000)">
+          <g id="编组-4" transform="translate(235.000000, 29.000000)">
+            <g id="气泡" transform="translate(20.000000, 0.000000)">
+              <g id="椭圆形">
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <circle stroke="url(#radialGradient-2)" stroke-width="0.5" stroke-linejoin="square" cx="40" cy="40" r="39.75"></circle>
+              </g>
+              <circle id="椭圆形备份-18" fill="url(#linearGradient-5)" opacity="0.702481224" filter="url(#filter-6)" transform="translate(40.000000, 50.000000) scale(1, -1) translate(-40.000000, -50.000000) " cx="40" cy="50" r="28"></circle>
+              <circle id="椭圆形备份-17" fill="url(#linearGradient-7)" opacity="0.304157075" style="mix-blend-mode: normal;" cx="33" cy="34" r="31"></circle>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

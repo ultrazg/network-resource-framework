@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="23px" viewBox="0 0 32 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF6B6B" offset="0%"></stop>
+            <stop stop-color="#FF2121" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="32" height="23"></rect>
+            <g id="marker" transform="translate(8.684211, 4.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <path d="M2.09707917,11.3137016 C-0.699026392,8.72556199 -0.699026392,4.52924425 2.09707917,1.94110468 C4.8921622,-0.647034893 9.42401077,-0.647034893 12.2190938,1.94110468 C15.0146881,4.52971765 15.0146881,8.7260354 12.2190938,11.3146484 L7.15859772,16 L2.09707917,11.3132281 L2.09707917,11.3137016 Z M9.32738177,8.63608725 C10.1023964,7.91845354 10.405074,6.87247958 10.121399,5.89217367 C9.83772397,4.91186776 9.01079327,4.14616168 7.95210367,3.88348951 C6.89341408,3.62081734 5.76380574,3.90108523 4.98879119,4.61871898 C3.79072249,5.7280846 3.79072249,7.52672164 4.98879119,8.63608725 C6.18685989,9.74545287 8.12931304,9.74545287 9.32738177,8.63608725 L9.32738177,8.63608725 Z" id="形状备份-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

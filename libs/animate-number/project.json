@@ -1,0 +1,23 @@
+{
+  "root": "libs/animate-number",
+  "sourceRoot": "libs/animate-number/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/animate-number/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/animate-number"],
+      "options": {
+        "jestConfig": "libs/animate-number/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

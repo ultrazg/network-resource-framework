@@ -1,0 +1,48 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 33"
+     class="design-iconfont" preserveAspectRatio="none meet">
+  <defs>
+    <linearGradient x1="2.33184516%" y1="27.2731312%" x2="50%" y2="50%" id="45fqwjd6p__7934fqax7c">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="73.964497%" x2="50%" y2="53.3439523%" id="45fqwjd6p__hkhtuqwhad">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="98.2728663%" y1="27.0035871%" x2="47.5612348%" y2="51.6585947%" id="45fqwjd6p__rwn2ti09we">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="47.3397706%" x2="100%" y2="73.964497%" id="45fqwjd6p__hklvnltsef">
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#00ADFF" offset="100%"/>
+    </linearGradient>
+    <filter x="-10.6%" y="-34.4%" width="121.2%" height="168.8%" filterUnits="objectBoundingBox"
+            id="45fqwjd6p__2xtch5asea">
+      <feGaussianBlur stdDeviation="11" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                   result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.479294143 0 0 0 0 1 0 0 0 1 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="45fqwjd6p__um1mnjkh3b" x="0" y="0" width="104" height="32" rx="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1 .5)">
+      <use fill="#000" filter="url(#45fqwjd6p__2xtch5asea)" xlink:href="#45fqwjd6p__um1mnjkh3b"/>
+      <rect stroke-opacity=".3" stroke="#007CFF" stroke-linejoin="square" x=".5" y=".5" width="103" height="31"
+            rx="2"/>
+    </g>
+    <path
+      d="M0,10.990918 L0,1.0990918 C0,0.492080161 0.710782454,1.13686838e-13 1.58757705,1.13686838e-13 L15.8757705,1.13686838e-13"
+      stroke="url(#45fqwjd6p__7934fqax7c)" transform="translate(1 .5)"/>
+    <path d="M15.8771405,31.9918665 L1.58771405,31.9918665 C0.710843793,31.9918665 0,31.4997439 0,30.8926798 L0,21"
+          stroke="url(#45fqwjd6p__hkhtuqwhad)" transform="translate(1 .5)"/>
+    <path
+      d="M88.1111111,7.1942452e-14 L102.399305,7.1942452e-14 C103.276099,7.1942452e-14 103.986882,0.492080161 103.986882,1.0990918 L103.986882,10.990918"
+      stroke="url(#45fqwjd6p__rwn2ti09we)" transform="translate(1 .5)"/>
+    <path
+      d="M103.988252,21 L103.988252,30.8926798 C103.988252,31.4997439 103.277408,31.9918665 102.400538,31.9918665 L88.1111111,31.9918665"
+      stroke="url(#45fqwjd6p__hklvnltsef)" transform="translate(1 .5)"/>
+  </g>
+</svg>

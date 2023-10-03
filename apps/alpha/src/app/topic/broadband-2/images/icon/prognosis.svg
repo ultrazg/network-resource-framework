@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="65px" viewBox="0 0 64 65" version="1.1">
+  <title>预判</title>
+  <defs>
+    <linearGradient x1="12.5034328%" y1="17.6834387%" x2="81.8457424%" y2="87.2349623%" id="linearGradient-1">
+      <stop stop-color="#6A57AD" stop-opacity="0.795791733" offset="0%"></stop>
+      <stop stop-color="#030502" offset="70.0568618%"></stop>
+      <stop stop-color="#1F3F6B" stop-opacity="0.697492693" offset="100%"></stop>
+    </linearGradient>
+    <circle id="path-2" cx="32" cy="32" r="32"></circle>
+    <filter x="-11.7%" y="-11.7%" width="123.4%" height="123.4%" filterUnits="objectBoundingBox" id="filter-3">
+      <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+      <feGaussianBlur stdDeviation="5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+      <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+      <feColorMatrix values="0 0 0 0 0.166699324   0 0 0 0 0.312496656   0 0 0 0 0.781849294  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+    </filter>
+    <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-4">
+      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+    </filter>
+    <circle id="path-5" cx="20" cy="18" r="13"></circle>
+    <filter x="-2.9%" y="-2.9%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-6">
+      <feOffset dx="0.5" dy="0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+      <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+      <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+      <feOffset dx="-0.5" dy="-0.5" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+      <feColorMatrix values="0 0 0 0 0.529411765   0 0 0 0 0.266666667   0 0 0 0 1  0 0 0 0.505037321 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+        <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="宽带资源" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-1654.000000, -860.000000)" id="编组-8">
+      <g transform="translate(1406.000000, 668.303385)">
+        <g id="编组-7备份-3" transform="translate(200.000000, 192.000000)">
+          <g id="预判" transform="translate(48.000000, 0.000000)">
+            <g id="椭圆形">
+              <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+              <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            </g>
+            <g id="编组-14" transform="translate(15.000000, 17.000000)">
+              <circle id="椭圆形备份" fill="#8747FF" filter="url(#filter-4)" cx="10" cy="10" r="10"></circle>
+              <path d="M10,0 C13.728221,0 16.9799209,2.04022981 18.6995115,5.06510147 C12.1297974,5.71738362 7,11.2596276 7,18 C7,18.5314844 7.03189433,19.0555195 7.09387343,19.5702957 C2.98846555,18.3263627 0,14.5121781 0,10 C0,4.4771525 4.4771525,0 10,0 Z" id="形状结合" fill="#8747FF"></path>
+              <circle id="椭圆形备份-5" fill="#FFFFFF" opacity="0.297648839" cx="20" cy="18" r="13"></circle>
+              <g id="椭圆形备份-3" opacity="0.504561651" fill="black" fill-opacity="1">
+                <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+              </g>
+              <g id="预判评估" transform="translate(12.000000, 9.696615)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8.056,14.016 L3.256,14.016 C2.592,14.016 2.056,13.48 2.056,12.816 L2.056,3.216 C2.056,2.552 2.592,2.016 3.256,2.016 L12.856,2.016 C13.52,2.016 14.056,2.552 14.056,3.216 L14.056,5.312 C14.056,5.536 13.88,5.712 13.656,5.712 C13.432,5.712 13.256,5.536 13.256,5.312 L13.256,3.216 C13.256,2.992 13.08,2.816 12.856,2.816 L3.256,2.816 C3.032,2.816 2.856,2.992 2.856,3.216 L2.856,12.816 C2.856,13.04 3.032,13.216 3.256,13.216 L8.056,13.216 C8.28,13.216 8.456,13.392 8.456,13.616 C8.456,13.84 8.28,14.016 8.056,14.016 Z" id="路径"></path>
+                <path d="M13.808,7.24 L10.592,12.808 C10.552,12.872 10.512,12.928 10.456,12.968 C10.456,12.968 9.36,13.976 9.272,13.904 C9.184,13.856 9.456,12.4 9.456,12.4 C9.464,12.328 9.488,12.256 9.528,12.184 L12.744,6.616 C12.88,6.376 13.152,6.28 13.36,6.4 L13.696,6.592 C13.896,6.712 13.944,7 13.808,7.24 Z" id="路径"></path>
+                <path d="M13.48,7.824 L13.304,8.12 C13.304,8.12 13.288,8.12 13.264,8.112 L12.248,7.528 C12.2349357,7.52003583 12.2239642,7.50906434 12.216,7.496 L12.384,7.2 C12.4,7.184 13.488,7.808 13.48,7.824 L13.48,7.824 Z" id="路径"></path>
+                <path d="M11.656,5.256 L4.456,5.256 C4.232,5.256 4.056,5.08 4.056,4.856 C4.056,4.632 4.232,4.456 4.456,4.456 L11.656,4.456 C11.872,4.456 12.056,4.632 12.056,4.856 C12.056,5.072 11.88,5.256 11.656,5.256 Z M10.056,8.056 L4.456,8.056 C4.232,8.056 4.056,7.88 4.056,7.656 C4.056,7.44 4.232,7.256 4.456,7.256 L10.056,7.256 C10.272,7.256 10.456,7.44 10.456,7.656 C10.456,7.88 10.28,8.056 10.056,8.056 Z" id="形状"></path>
+                <path d="M8.456,10.864 L4.456,10.864 C4.232,10.864 4.056,10.688 4.056,10.464 C4.056,10.24 4.232,10.064 4.456,10.064 L8.456,10.064 C8.672,10.064 8.856,10.24 8.856,10.464 C8.856,10.688 8.68,10.864 8.456,10.864 Z" id="路径"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

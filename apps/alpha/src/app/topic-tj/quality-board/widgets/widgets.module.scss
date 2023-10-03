@@ -1,0 +1,7 @@
+.container {
+    :global{
+        .swiper-slide{
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 34"
+     class="design-iconfont">
+  <defs>
+    <linearGradient x1="2.33184516%" y1="27.2731312%" x2="50%" y2="50%" id="pop6hgq3k__4qe8e0db3c">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="73.964497%" x2="50%" y2="53.3439523%" id="pop6hgq3k__4s9u1n8f1d">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="98.2728663%" y1="27.0035871%" x2="47.5612348%" y2="51.6585947%" id="pop6hgq3k__mqzw2t3vae">
+      <stop stop-color="#00ADFF" offset="0%"/>
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="47.3397706%" x2="100%" y2="73.964497%" id="pop6hgq3k__yh12jhipof">
+      <stop stop-color="#4EFCC9" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#00ADFF" offset="100%"/>
+    </linearGradient>
+    <filter x="-8.7%" y="-34.4%" width="117.3%" height="168.8%" filterUnits="objectBoundingBox"
+            id="pop6hgq3k__5f82rkra0b">
+      <feGaussianBlur stdDeviation="11" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                   result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.479294143 0 0 0 0 1 0 0 0 0.333041958 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="pop6hgq3k__kg5mwny12a" x="0" y="0" width="127" height="32" rx="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(1 1)">
+      <use fill="#0D1012" xlink:href="#pop6hgq3k__kg5mwny12a"/>
+      <use fill="#000" filter="url(#pop6hgq3k__5f82rkra0b)" xlink:href="#pop6hgq3k__kg5mwny12a"/>
+      <rect stroke-opacity=".3" stroke="#007CFF" stroke-linejoin="square" x=".5" y=".5" width="126" height="31" rx="2"/>
+    </g>
+    <path d="M0,10.990918 L0,1.0990918 C0,0.492080161 0.710782454,0 1.58757705,0 L15.8757705,0"
+          stroke="url(#pop6hgq3k__4qe8e0db3c)" transform="translate(1 1)"/>
+    <path d="M15.8771405,31.9918665 L1.58771405,31.9918665 C0.710843793,31.9918665 0,31.4997439 0,30.8926798 L0,21"
+          stroke="url(#pop6hgq3k__4s9u1n8f1d)" transform="translate(1 1)"/>
+    <path
+      d="M111.111111,1.13686838e-13 L125.399305,1.13686838e-13 C126.276099,1.13686838e-13 126.986882,0.492080161 126.986882,1.0990918 L126.986882,10.990918"
+      stroke="url(#pop6hgq3k__mqzw2t3vae)" transform="translate(1 1)"/>
+    <path
+      d="M126.988252,21 L126.988252,30.8926798 C126.988252,31.4997439 126.277408,31.9918665 125.400538,31.9918665 L111.111111,31.9918665"
+      stroke="url(#pop6hgq3k__yh12jhipof)" transform="translate(1 1)"/>
+  </g>
+</svg>

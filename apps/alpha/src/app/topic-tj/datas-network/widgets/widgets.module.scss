@@ -1,0 +1,443 @@
+.top-content {
+  height: 30px;
+  display: flex;
+  line-height: 30px;
+
+  .title-content {
+    flex: 10;
+
+    .title {
+      font-family: FZZDHJW--GB1-0, sans-serif;
+      font-weight: 0;
+      font-size: 16px;
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      display: inline-block;
+      background-image: linear-gradient(
+          270deg,
+          rgba(0, 45, 99, 0) 0%,
+          rgba(0, 45, 99, 0.4) 35%,
+          rgba(0, 45, 99, 0.4) 74%,
+          rgba(0, 45, 99, 0) 100%
+      );
+    }
+  }
+
+  .tabs-content {
+    flex: 2;
+
+    span {
+      width: 50px;
+      height: 30px;
+      background: #002248;
+      border: 1px solid #14c0e5;
+      box-shadow: inset 0 0 8px 0 #1793d8;
+      font-weight: 400;
+      font-size: 14px;
+      color: #36b7fd;
+      letter-spacing: 0;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .active {
+      color: #ffffff;
+      font-weight: 600;
+      border: 1px solid #00fff4;
+      box-shadow: inset 0 0 11px 0 rgba(0, 165, 198, 0.62);
+      cursor: default;
+    }
+  }
+}
+
+.time-content {
+  height: 36px;
+  line-height: 36px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(40, 69, 182, 0.32) 0%,
+      rgba(40, 92, 182, 0) 100%
+  );
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  margin: 15px 0;
+  padding-left: 5px;
+  font-family: PingFangSC-SNaNpxibold, sans-serif;
+}
+
+.charts-content {
+  width: 100%;
+  height: 270px;
+  margin-bottom: 15px;
+}
+
+.trunk-items-content {
+  width: 100%;
+  height: 270px;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* 设置滚动条的样式 */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* 滚动槽 */
+  &::-webkit-scrollbar-track {
+    border-radius: 4px;
+  }
+
+  /* 滚动条滑块 */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #5d97bd;
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: #5d97bd;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    li {
+      width: 25%;
+      cursor: pointer;
+
+      .trunk-item-box {
+        margin: 10px;
+        height: 145px;
+
+        .trunk-item-top {
+          display: flex;
+          background-image: linear-gradient(
+              0deg,
+              rgba(16, 58, 132, 0) 0%,
+              #173e83 100%
+          );
+
+          .left-icon {
+            flex: 2;
+            height: 32px;
+            background: url('../../images/left_icon.png') no-repeat no-repeat center;
+          }
+
+          .trunk-item-title {
+            flex: 11;
+            height: 32px;
+            margin-bottom: 5px;
+            line-height: 32px;
+            font-family: FZZDHJW, sans-serif;
+            padding-right: 5px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+
+        .trunk-item-info {
+          height: 110px;
+          // opacity: 0.5;
+          background-image: linear-gradient(
+              0deg,
+              rgba(16, 58, 132, 0) 0%,
+              #0f316d 100%
+          );
+          border-radius: 4px;
+          overflow: hidden;
+
+          .info-box {
+            display: flex;
+            margin-top: 10px;
+
+            .info-icon {
+              flex: 1;
+              height: 17px;
+              background: url('../../images/virtual-list-icon@1x.png') no-repeat no-repeat center;
+            }
+
+            .info-title {
+              flex: 3;
+              height: 17px;
+              line-height: 17px;
+              font-family: PingFangSC-Regular, sans-serif;
+              font-weight: 400;
+              font-size: 12px;
+              color: #00c5f5;
+              letter-spacing: 0;
+            }
+
+            .info-text {
+              flex: 3;
+              height: 17px;
+              line-height: 17px;
+            }
+
+            .info-text-number {
+              flex: 3;
+              font-family: PMZD, sans-serif;
+              height: 17px;
+              line-height: 17px;
+              color: #00FCFF;
+              letter-spacing: 1.4px;
+            }
+          }
+        }
+      }
+
+      .trunk-item-box-active {
+        margin: 10px;
+        height: 145px;
+
+        .trunk-item-top {
+          display: flex;
+          background-image: linear-gradient(
+              0deg,
+              rgba(16, 58, 132, 0) 0%,
+              #4a7fdc 100%
+          ); // active
+
+          .left-icon {
+            flex: 2;
+            height: 32px;
+            background: url('../../images/left_icon_active.png') no-repeat no-repeat center;
+          }
+
+          .trunk-item-title {
+            flex: 11;
+            height: 32px;
+            margin-bottom: 5px;
+            line-height: 32px;
+            font-family: FZZDHJW, sans-serif;
+            padding-right: 5px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+
+        .trunk-item-info {
+          height: 110px;
+          opacity: 0.9;
+          background-image: linear-gradient(
+              0deg,
+              rgba(16, 58, 132, 0) 0%,
+              #0f316d 100%
+          );
+          border-radius: 4px;
+          overflow: hidden;
+
+          .info-box {
+            display: flex;
+            margin-top: 10px;
+
+            .info-icon {
+              flex: 1;
+              height: 17px;
+              background: url('../../images/virtual-list-icon@1x.png') no-repeat no-repeat center;
+            }
+
+            .info-title {
+              flex: 3;
+              height: 17px;
+              line-height: 17px;
+              font-family: PingFangSC-Regular, sans-serif;
+              font-weight: 400;
+              font-size: 12px;
+              color: #00c5f5;
+              letter-spacing: 0;
+            }
+
+            .info-text {
+              flex: 3;
+              height: 17px;
+              line-height: 17px;
+            }
+
+            .info-text-number {
+              flex: 3;
+              font-family: PMZD, sans-serif;
+              height: 17px;
+              line-height: 17px;
+              color: #00FCFF;
+              letter-spacing: 1.4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.tip-text {
+  height: 17px;
+  font-family: PingFangSC-Regular, sans-serif;
+  background: rgba(15, 66, 112, 0.22);
+  font-weight: 400;
+  font-size: 12px;
+  color: #2fddfa;
+  margin-bottom: 10px;
+}
+
+.customer-items-content {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* 设置滚动条的样式 */
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* 滚动槽 */
+  &::-webkit-scrollbar-track {
+    border-radius: 4px;
+  }
+
+  /* 滚动条滑块 */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #5d97bd;
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: #5d97bd;
+  }
+
+  .customer-item {
+    width: 45%;
+    height: 128px;
+    padding-left: 45px;
+    margin-bottom: 15px;
+
+    .customer-item-card {
+      height: 128px;
+      margin: 0 auto;
+      position: relative;
+      cursor: pointer;
+
+      .customer-item-group-icon {
+        position: absolute;
+        left: -28px;
+        top: 0;
+        width: 56px;
+        height: 47px;
+        background: url('../../images/group_icon.png') no-repeat no-repeat center;
+        z-index: 1000;
+      }
+
+      .customer-item-info {
+        .customer-item-top {
+          height: 32px;
+
+          .title-box {
+            padding-left: 40px;
+
+            .icon {
+              width: 12px;
+              height: 12px;
+              display: none;
+              background: url('../../images/left_icon_active.png') no-repeat no-repeat center;
+            }
+
+            .icon-active {
+              width: 12px;
+              height: 12px;
+              display: inline-block;
+              background: url('../../images/left_icon_active.png') no-repeat no-repeat center;
+            }
+
+            .title {
+              width: 10%;
+              display: inline;
+              padding: 0 10px;
+              color: #00c5f5;
+              font-family: FZZDHJW, sans-serif;
+            }
+
+            .title-active {
+              width: 10%;
+              display: inline;
+              padding: 0 10px;
+              font-family: FZZDHJW, sans-serif;
+            }
+
+            .icon-right {
+              transform: rotateY(180deg);
+            }
+          }
+        }
+
+        .customer-item-detail {
+          height: 96px;
+          opacity: 0.74;
+          background-image: linear-gradient(
+              0deg,
+              rgba(16, 58, 132, 0) 0%,
+              #173e83 100%
+          );
+          border-radius: 4px;
+          overflow: hidden;
+
+          .info-group {
+            margin-top: 10px;
+
+            .info-box {
+              display: inline;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+
+              .info-icon {
+                width: 20px;
+                height: 15px;
+                display: inline-block;
+                margin-left: 28px;
+                background: url('../../images/virtual-list-icon@1x.png') no-repeat no-repeat center;
+              }
+
+              .info-title {
+                font-family: PingFangSC-Regular, sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                color: #00c5f5;
+                letter-spacing: 0;
+                display: inline;
+                margin: 0 10px;
+              }
+
+              .info-text {
+                font-family: PingFangSC-Regular, sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                color: #ffffff;
+                letter-spacing: 0;
+                display: inline;
+              }
+
+              .info-text-number {
+                font-family: PMZD, sans-serif;
+                font-weight: 400;
+                font-size: 12px;
+                color: #00FFFF;
+                letter-spacing: 0;
+                display: inline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

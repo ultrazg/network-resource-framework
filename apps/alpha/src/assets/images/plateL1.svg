@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="595px" height="139px" viewBox="0 0 595 139" version="1.1">
+  <title>底座一层</title>
+  <defs>
+    <linearGradient x1="50%" y1="4.45315253%" x2="50%" y2="100%" id="linearGradient-1">
+      <stop stop-color="#0B1946" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#101C4A" offset="72.1414094%"></stop>
+      <stop stop-color="#1D3A69" offset="90.0871465%"></stop>
+      <stop stop-color="#0F2048" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="55.7820142%" x2="50%" y2="100%" id="linearGradient-2">
+      <stop stop-color="#C8C8C8" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#2C456F" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="100%" x2="50%" y2="18.6335761%" id="linearGradient-3">
+      <stop stop-color="#DDF9FF" offset="0%"></stop>
+      <stop stop-color="#77E0FF" offset="3.95424203%"></stop>
+      <stop stop-color="#5EACFF" offset="17.5368524%"></stop>
+      <stop stop-color="#75AEE2" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="资源可视化6.0" transform="translate(-138.000000, -900.000000)">
+      <g id="编组-25" transform="translate(140.000000, 821.000000)">
+        <g id="编组-35" transform="translate(0.000000, 50.000000)">
+          <g id="底座一层" transform="translate(0.000000, 31.000000)">
+            <ellipse id="椭圆形备份-11" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="295.464789" cy="73.7464789" rx="295.464789" ry="62.2535211"></ellipse>
+            <ellipse id="椭圆形" stroke="url(#linearGradient-3)" stroke-width="4" cx="295.464789" cy="62.2535211" rx="295.464789" ry="62.2535211"></ellipse>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

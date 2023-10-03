@@ -1,0 +1,19 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 43"
+     class="design-iconfont">
+  <defs>
+    <filter x="-9.4%" y="-7%" width="118.8%" height="114%" filterUnits="objectBoundingBox" id="s5as18651b">
+      <feMorphology radius="2" in="SourceAlpha" result="shadowSpreadInner1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowSpreadInner1" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                   result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.0475712362 0 0 0 0 0.607902195 0 0 0 1 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="h45mnb1z9a" x="0" y="0" width="32" height="43" rx="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#008AFB" xlink:href="#h45mnb1z9a"/>
+    <use fill="#000" filter="url(#s5as18651b)" xlink:href="#h45mnb1z9a"/>
+    <rect stroke="#00D3FF" stroke-linejoin="square" x=".5" y=".5" width="31" height="42" rx="4"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+.column {
+  display: inline-block;
+  width: 16px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform: translateY(-5px);
+}
+
+.column-body {
+  width: 16px;
+  height: 13px;
+  z-index: -1;
+  margin-top: 5px;
+}

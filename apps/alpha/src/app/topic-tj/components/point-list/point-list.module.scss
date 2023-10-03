@@ -1,0 +1,27 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    .point-wrap {
+      width: 20px;
+      // height: 19px;
+      display: flex;
+      line-height: 19px;
+      text-align: center;
+      background: rgba(8, 76, 117, 0.41);
+      margin-right: 10px;
+      margin-bottom: 10px;
+      .point {
+        font-size: 8px;
+        background: linear-gradient(180deg, #57C6FF 0%, #009EFF 100%);
+        -webkit-background-clip: text;
+        color:transparent;
+      }
+    }
+  }

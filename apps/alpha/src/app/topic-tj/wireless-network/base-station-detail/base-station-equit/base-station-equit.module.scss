@@ -1,0 +1,282 @@
+.coverStation {
+    height: calc(100% - 115px);
+    :global {
+        .resourceGraphList {
+            height: calc(100% - 115px);
+            background: inherit;
+            border: none;
+            padding: 0;
+            width: 100%;
+            max-height: calc(740px);
+            position: relative;
+            top: 10px;
+            left: 0;
+            .thirdPartyList {
+                cursor: pointer;
+                box-sizing: border-box;
+                width: 100%;
+                height: 540px;
+                padding-bottom: 19px;
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+        }
+        .ant-select-multiple {
+            .ant-select-selection-item {
+                background: transparent;
+                text-indent: initial;
+                border: 1px solid #6e6e6e;
+                .ant-select-selection-item-remove {
+                    color: #fff;
+                }
+            }
+            .ant-select-selection-overflow {
+                overflow: auto;
+                flex-wrap: nowrap;
+                /* 设置滚动条的样式 */
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    // background-color: #712;
+                }
+                /* 滚动槽 */
+                &::-webkit-scrollbar-track {
+                    // -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+                    border-radius: 4px;
+                    // background-color: #77ff;
+                }
+                /* 滚动条滑块 */
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 10px;
+                    background-color: transparent;
+                    // -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+                }
+                &::-webkit-scrollbar-thumb:window-inactive {
+                    background: transparent;
+                }
+            }
+        }
+        .mapSearchContainer{
+            .ant-form{
+                width: 100%;
+            }
+        }
+    }
+    .areaSelect {
+        cursor: pointer;
+        color: #fff;
+        text-indent: 1em;
+        position: relative;
+
+        &::after {
+            right: 10px;
+            top: 45%;
+            // left: 10px;
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            // border: ;
+            border-top: 4px solid #0edcf4;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+        }
+    }
+
+    .itemContainer {
+        cursor: pointer;
+        box-sizing: border-box;
+        width: 100%;
+        height: 117px;
+        // background-color: #6cf;
+        border-bottom: 1px solid #195796;
+        padding-top: 21px;
+        padding-bottom: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .item-left {
+            width: 35px;
+            height: 39px;
+            background-image: url("../assets/deviceImg.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .item-left-text {
+            width: 36px;
+            height: 18px;
+            background-color: #0b367d;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .item-right {
+            width: calc(100% - 51px);
+            // height：pxrem(77px;
+            height: 77px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 15px;
+
+            .item-topBox {
+                width: 100%;
+                color: #fff;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .topBox-name {
+                    font-size: 16px;
+                    overflow: hidden;
+                    /*超出部分隐藏*/
+                    text-overflow: ellipsis;
+                    /* 超出部分显示省略号 */
+                    white-space: nowrap;
+                    /*规定段落中的文本不进行换行 */
+                    width: 230px;
+                    // font-size: 12px;
+                }
+
+                .topBox-level {
+                    // display: flex;
+                    // flex: 1;
+                    font-size: 12px;
+                    color: #80beff;
+                    padding: 0 8px;
+                    background: linear-gradient(135deg, rgba(37, 125, 170, 0.32), rgba(39, 112, 178, 0.72));
+                    box-shadow: 0px 5px 4px 0px rgba(16, 46, 97, 0.22);
+                }
+            }
+
+            .item-middle {
+                font-size: 12px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding-right: 30px;
+                box-sizing: border-box;
+                text-align: left;
+                .middletext {
+                    color: #00c5f5;
+                    .lng {
+                        color: #ffffff;
+                    }
+                    .lat {
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .item-address {
+                width: 100%;
+                color: #ffffff;
+                font-size: 12px;
+                // padding-right: 30px;
+                // text-align: left;
+                .addresstext {
+                    display: inline-block;
+                    color: #00c5f5;
+                }
+            }
+        }
+    }
+
+    .itemContainer1 {
+        height: 131px !important;
+
+        .item-leftModule {
+            width: 49px;
+            height: 94px;
+            display: flex;
+            flex-direction: column;
+
+            .leftModule_top {
+                height: 20px;
+                text-align: center;
+                color: #fff;
+                line-height: 20px;
+                background: linear-gradient(135deg, rgba(37, 125, 170, 0.32) 0%, rgba(39, 155, 178, 0.12) 100%);
+                box-shadow: 0px 5px 4px 0px rgba(16, 46, 97, 0.22);
+                border: 1px solid;
+                border-image: linear-gradient(135deg, rgba(35, 157, 235, 1), rgba(41, 234, 224, 0)) 1 1;
+            }
+
+            .leftModule_bottom {
+                height: calc(100% - 20px);
+                background-image: url("../assets/macRoomLogo.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .item-right {
+            height: 94px;
+
+            .item-topBox {
+                justify-content: start;
+            }
+        }
+    }
+
+    .no-data-picture {
+        width: 200px;
+        height: 150px;
+        margin: 40% auto;
+    }
+
+    .noDataTip {
+        width: 80px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        margin: 24px auto;
+        color: #28b3d9;
+    }
+
+    .bgcStyle {
+        background: linear-gradient(
+            270deg,
+            rgba(238, 238, 238, 0),
+            rgba(0, 253, 255, 0.32) 50%,
+            rgba(216, 216, 216, 0)
+        );
+    }
+
+    .pagination {
+        // position: absolute;
+        // bottom: 30px;
+        // left: 10px;
+    }
+    .sBtn {
+        text-align: center;
+        line-height: 30px;
+        width: 73px;
+        height: 31px;
+        color: #fff;
+        background: #1966ff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .rBtn {
+        text-align: center;
+        line-height: 30px;
+        width: 73px;
+        height: 31px;
+        border: 1px solid #2865a0;
+        box-sizing: border-box;
+        color: #fff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .bgcStyle {
+        background: linear-gradient(
+            270deg,
+            rgba(27, 187, 218, 0),
+            rgba(11, 133, 180, 0.42) 73%,
+            rgba(11, 133, 180, 0.01) 99%
+        );
+    }
+}

@@ -1,0 +1,28 @@
+.cuboid {
+  display: inline-block;
+  height: 13px;
+  margin-right: 8px;
+
+  .top {
+    width: 12px;
+    height: 6px;
+    transform: skewX(-45deg);
+    background: #05316c;
+  }
+
+  .cube {
+    width: 12px;
+    height: 13px;
+    margin-left: -3px;
+    background-image: linear-gradient(to bottom, #05316c 0%, #0000 100%);
+  }
+
+  .cube-right {
+    width: 6px;
+    height: 13px;
+    transform: skewY(-45deg);
+    margin-top: -16px;
+    margin-left: 9px;
+    background-image: linear-gradient(to bottom, #05316c 0%, #0000 100%);
+  }
+}

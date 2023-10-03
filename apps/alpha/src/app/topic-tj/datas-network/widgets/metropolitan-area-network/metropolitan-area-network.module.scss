@@ -1,0 +1,83 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+$canvasHeight: 750px;
+$canvasWidth: 750px;
+.container {
+    z-index: 1;
+    // width: 1000px;
+    height: 929px;
+    box-sizing: border-box;
+    // margin-left: 200px;
+    .metropolitan-area-network {
+        position: relative;
+        width: 750px;
+        margin: auto;
+        margin-left: 37px;
+        .network-body {
+            height: $canvasHeight;
+            width: $canvasWidth;
+            margin: auto;
+            z-index: 10;
+        }
+        .three-dom {
+            height: 22px;
+            font-family: 'FZZDHJW', sans-serif;
+            font-weight: 0;
+            font-size: 18px;
+            color: #00C5F5;
+            position: absolute;
+            text-align: center;
+            left: -50%;
+            right: -50%;
+            width: $canvasWidth;
+            margin: auto;
+            z-index: 9;
+        }
+        .hexinceng{
+            top: 60px;
+            height: calc($canvasHeight/3);
+            line-height: calc($canvasHeight/3);
+            background: url("../../dev-list-dialog/assets/images/one.png");
+            background-position: center 80%;
+            background-size: 388px 98px;
+            background-repeat: no-repeat;
+        }
+        .huijuceng{
+            top: calc($canvasHeight/3);
+            height: calc($canvasHeight/3);
+            line-height: calc($canvasHeight/3);
+            background: url("../../dev-list-dialog/assets/images/two.png");
+            background-position: center 80%;
+            background-size: 673px 165px;
+            background-repeat: no-repeat;
+        }
+        .jieruceng{
+            top: calc($canvasHeight/3 *2);
+            height: calc($canvasHeight/3);
+            line-height: calc($canvasHeight/3);
+            background: url("../../dev-list-dialog/assets/images/three.png");
+            background-position: center 80%;
+            background-size: 745px 165px;
+            background-repeat: no-repeat;
+        }
+
+    }
+    .network-top-title{
+        background: url("../../dev-list-dialog/assets/images/network-topology.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 140px;
+        margin: 10px auto;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .chartTooltip {
+        background: red;
+    }
+}

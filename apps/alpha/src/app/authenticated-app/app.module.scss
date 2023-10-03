@@ -1,0 +1,93 @@
+/* Your styles goes here. */
+.first-header {
+  header{
+    z-index:100;
+  }
+}
+
+section {
+  &.resource {
+    position: relative;
+    height: calc(1080px - 76px);
+  }
+}
+.left-section {
+  transition: transform 0.15s;
+  &.fly-out {
+    position: absolute;
+    left: -1000px;
+    transition: all 0.15s;
+    animation: flyOutLeft 1.3s linear;
+  }
+  &.fly-in {
+    left: 0px;
+    transition: all 0.15s 1s;
+    animation: flyInLeft 1.7s linear;
+  }
+}
+.right-section {
+  transition: transform 0.15s;
+  &.fly-out {
+    position: absolute;
+    right: -1000px;
+    transition: all 0.15s;
+    animation: flyOutRight 1.3s linear;
+  }
+  &.fly-in {
+    left: 0px;
+    transition: all 0.15s 1s;
+    animation: flyInRight 1.7s linear;
+  }
+}
+@keyframes flyOutRight {
+  0% {
+    right: 0;
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(-20deg);
+    right: -1000px;
+    opacity: 0;
+  }
+}
+@keyframes flyInRight {
+  0% {
+    transform: rotate(-10deg);
+    right: -1000px;
+    top: 20px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
+@keyframes flyOutLeft {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(20deg);
+    left: -1000px;
+    opacity: 0;
+  }
+}
+@keyframes flyInLeft {
+  0% {
+    transform: rotate(10deg);
+    left: -1000px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}

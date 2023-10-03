@@ -1,0 +1,254 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "areaCode": "110000000000",
+      "provinceName": "北京市",
+      "roomTotal": 900820,
+      "roomTotalNormalNum": 824544,
+      "stationTotal": 399523,
+      "stationNormalNum": 392577
+    },
+    {
+      "areaCode": "310000000000",
+      "provinceName": "上海市",
+      "roomTotal": 283469,
+      "roomTotalNormalNum": 196526,
+      "stationTotal": 70326,
+      "stationNormalNum": 64225
+    },
+    {
+      "areaCode": "440000000000",
+      "provinceName": "广东省",
+      "roomTotal": 135194,
+      "roomTotalNormalNum": 135190,
+      "stationTotal": 127168,
+      "stationNormalNum": 126557
+    },
+    {
+      "areaCode": "370000000000",
+      "provinceName": "山东省",
+      "roomTotal": 127063,
+      "roomTotalNormalNum": 125052,
+      "stationTotal": 209443,
+      "stationNormalNum": 207476
+    },
+    {
+      "areaCode": "140000000000",
+      "provinceName": "山西省",
+      "roomTotal": 114028,
+      "roomTotalNormalNum": 111503,
+      "stationTotal": 127706,
+      "stationNormalNum": 127706
+    },
+    {
+      "areaCode": "420000000000",
+      "provinceName": "湖北省",
+      "roomTotal": 109617,
+      "roomTotalNormalNum": 109582,
+      "stationTotal": 94486,
+      "stationNormalNum": 93043
+    },
+    {
+      "areaCode": "330000000000",
+      "provinceName": "浙江省",
+      "roomTotal": 102408,
+      "roomTotalNormalNum": 78619,
+      "stationTotal": 183879,
+      "stationNormalNum": 109861
+    },
+    {
+      "areaCode": "320000000000",
+      "provinceName": "江苏省",
+      "roomTotal": 95979,
+      "roomTotalNormalNum": 95978,
+      "stationTotal": 83403,
+      "stationNormalNum": 83226
+    },
+    {
+      "areaCode": "350000000000",
+      "provinceName": "福建省",
+      "roomTotal": 93266,
+      "roomTotalNormalNum": 93114,
+      "stationTotal": 77212,
+      "stationNormalNum": 77057
+    },
+    {
+      "areaCode": "150000000000",
+      "provinceName": "内蒙古自治区",
+      "roomTotal": 79619,
+      "roomTotalNormalNum": 70809,
+      "stationTotal": 37909,
+      "stationNormalNum": 34512
+    },
+    {
+      "areaCode": "510000000000",
+      "provinceName": "四川省",
+      "roomTotal": 77733,
+      "roomTotalNormalNum": 77392,
+      "stationTotal": 84769,
+      "stationNormalNum": 84705
+    },
+    {
+      "areaCode": "430000000000",
+      "provinceName": "湖南省",
+      "roomTotal": 59456,
+      "roomTotalNormalNum": 59386,
+      "stationTotal": 59840,
+      "stationNormalNum": 59713
+    },
+    {
+      "areaCode": "520000000000",
+      "provinceName": "贵州省",
+      "roomTotal": 58707,
+      "roomTotalNormalNum": 58413,
+      "stationTotal": 46365,
+      "stationNormalNum": 43503
+    },
+    {
+      "areaCode": "530000000000",
+      "provinceName": "云南省",
+      "roomTotal": 55209,
+      "roomTotalNormalNum": 55191,
+      "stationTotal": 66954,
+      "stationNormalNum": 56844
+    },
+    {
+      "areaCode": "360000000000",
+      "provinceName": "江西省",
+      "roomTotal": 45630,
+      "roomTotalNormalNum": 45630,
+      "stationTotal": 43894,
+      "stationNormalNum": 43852
+    },
+    {
+      "areaCode": "230000000000",
+      "provinceName": "黑龙江省",
+      "roomTotal": 43808,
+      "roomTotalNormalNum": 43804,
+      "stationTotal": 45079,
+      "stationNormalNum": 45079
+    },
+    {
+      "areaCode": "500000000000",
+      "provinceName": "重庆市",
+      "roomTotal": 38520,
+      "roomTotalNormalNum": 38169,
+      "stationTotal": 45871,
+      "stationNormalNum": 44756
+    },
+    {
+      "areaCode": "220000000000",
+      "provinceName": "吉林省",
+      "roomTotal": 34237,
+      "roomTotalNormalNum": 34229,
+      "stationTotal": 30867,
+      "stationNormalNum": 30741
+    },
+    {
+      "areaCode": "340000000000",
+      "provinceName": "安徽省",
+      "roomTotal": 32948,
+      "roomTotalNormalNum": 32855,
+      "stationTotal": 39072,
+      "stationNormalNum": 38988
+    },
+    {
+      "areaCode": "120000000000",
+      "provinceName": "天津市",
+      "roomTotal": 29393,
+      "roomTotalNormalNum": 29371,
+      "stationTotal": 44095,
+      "stationNormalNum": 44080
+    },
+    {
+      "areaCode": "450000000000",
+      "provinceName": "广西壮族自治区",
+      "roomTotal": 29088,
+      "roomTotalNormalNum": 29007,
+      "stationTotal": 66980,
+      "stationNormalNum": 66943
+    },
+    {
+      "areaCode": "620000000000",
+      "provinceName": "甘肃省",
+      "roomTotal": 28235,
+      "roomTotalNormalNum": 27928,
+      "stationTotal": 27181,
+      "stationNormalNum": 25426
+    },
+    {
+      "areaCode": "610000000000",
+      "provinceName": "陕西省",
+      "roomTotal": 25482,
+      "roomTotalNormalNum": 25481,
+      "stationTotal": 36946,
+      "stationNormalNum": 36934
+    },
+    {
+      "areaCode": "460000000000",
+      "provinceName": "海南省",
+      "roomTotal": 24975,
+      "roomTotalNormalNum": 24975,
+      "stationTotal": 14989,
+      "stationNormalNum": 14971
+    },
+    {
+      "areaCode": "650000000000",
+      "provinceName": "新疆维吾尔自治区",
+      "roomTotal": 19341,
+      "roomTotalNormalNum": 19317,
+      "stationTotal": 36303,
+      "stationNormalNum": 36128
+    },
+    {
+      "areaCode": "210000000000",
+      "provinceName": "辽宁省",
+      "roomTotal": 12875,
+      "roomTotalNormalNum": 12872,
+      "stationTotal": 148382,
+      "stationNormalNum": 146945
+    },
+    {
+      "areaCode": "540000000000",
+      "provinceName": "西藏自治区",
+      "roomTotal": 9428,
+      "roomTotalNormalNum": 9208,
+      "stationTotal": 6925,
+      "stationNormalNum": 6892
+    },
+    {
+      "areaCode": "640000000000",
+      "provinceName": "宁夏回族自治区",
+      "roomTotal": 6616,
+      "roomTotalNormalNum": 6615,
+      "stationTotal": 10054,
+      "stationNormalNum": 9491
+    },
+    {
+      "areaCode": "630000000000",
+      "provinceName": "青海省",
+      "roomTotal": 5266,
+      "roomTotalNormalNum": 5266,
+      "stationTotal": 10824,
+      "stationNormalNum": 10824
+    },
+    {
+      "areaCode": "410000000000",
+      "provinceName": "河南省",
+      "roomTotal": 0,
+      "roomTotalNormalNum": 0,
+      "stationTotal": 0,
+      "stationNormalNum": 0
+    },
+    {
+      "areaCode": "130000000000",
+      "provinceName": "河北省",
+      "roomTotal": 0,
+      "roomTotalNormalNum": 0,
+      "stationTotal": 0,
+      "stationNormalNum": 0
+    }
+  ]
+}

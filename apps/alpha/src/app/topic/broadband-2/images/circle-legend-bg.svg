@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="75px" viewBox="0 0 300 75" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+  <title>编组 73</title>
+  <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="号线专题-1" transform="translate(-711.000000, -907.000000)">
+      <g id="编组-73" transform="translate(711.115333, 907.000000)">
+        <g id="编组-55备份" transform="translate(21.884667, 38.000000)">
+          <line x1="5" y1="6.5" x2="39.5" y2="6.5" id="路径-49备份-2" stroke="#FFC317" stroke-dasharray="3"></line>
+          <line x1="45" y1="6.5" x2="79.5" y2="6.5" id="路径-49备份-7" stroke="#FFC317" stroke-dasharray="3"></line>
+          <line x1="86" y1="6.5" x2="120.5" y2="6.5" id="路径-49备份-8" stroke="#FFC317" stroke-dasharray="3"></line>
+          <line x1="131" y1="6.5" x2="165.5" y2="6.5" id="路径-49备份-9" stroke="#FFC317" stroke-dasharray="3"></line>
+          <line x1="176" y1="6.5" x2="210.5" y2="6.5" id="路径-49备份-10" stroke="#FFC317" stroke-dasharray="3"></line>
+          <circle id="椭圆形" stroke="#FFED01" stroke-width="0.5" fill-opacity="0.7" fill="#FF8A00" cx="82.4" cy="6"
+                  r="3.75"></circle>
+          <circle id="椭圆形备份-38" stroke="#FFED01" stroke-width="0.5" fill="#FFDA00" cx="216" cy="6"
+                  r="5.75"></circle>
+          <circle id="椭圆形备份-36" stroke="#FFED01" stroke-width="0.5" fill-opacity="0.554387019" fill="#FF8A00"
+                  cx="41.2" cy="6" r="2.75"></circle>
+          <circle id="椭圆形备份-42" stroke="#FFED01" stroke-width="0.5" fill-opacity="0.876119974" fill="#FFDA00"
+                  cx="170.3" cy="6.5" r="5.25"></circle>
+          <circle id="椭圆形备份-37" stroke="#FFED01" stroke-width="0.5" fill-opacity="0.296683785" fill="#FF8A00"
+                  cx="2" cy="6" r="1.75"></circle>
+          <circle id="椭圆形备份-43" stroke="#FFED01" stroke-width="0.5" fill-opacity="0.615985577" fill="#FFDA00"
+                  cx="125.6" cy="6" r="4.75"></circle>
+        </g>
+
+        <text id="单位：万" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="252" y="48">单位：万</tspan>
+        </text>
+        <text id="0备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="0" y="71">0</tspan>
+        </text>
+        <text id="10备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="119" y="71">10</tspan>
+        </text>
+        <text id="0.1备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="36" y="71">0.1</tspan>
+        </text>
+        <text id="20备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="162" y="71">20</tspan>
+        </text>
+        <text id="1备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="82" y="71">1</tspan>
+        </text>
+        <text id="50备份" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal"
+              fill="#00FCFF">
+          <tspan x="207" y="71">50</tspan>
+        </text>
+        <g id="无限备份" transform="translate(252.884667, 58.000000)" fill-rule="nonzero">
+          <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+          <path
+            d="M5.82222222,11.6666667 C4.17777778,11.6666667 2.82222222,10.3111111 2.82222222,8.66666667 C2.82222222,7.02222223 4.17777778,5.66666667 5.82222222,5.66666667 C6.4,5.66666667 6.95555555,5.82222223 7.44444444,6.13333333 C7.64444444,6.26666666 7.71111111,6.53333333 7.57777778,6.75555556 C7.44444445,6.95555556 7.17777778,7.02222223 6.95555556,6.88888889 C6.62222223,6.66666667 6.22222223,6.55555556 5.82222222,6.55555556 C4.66666666,6.55555556 3.71111111,7.51111113 3.71111111,8.66666667 C3.71111111,9.82222222 4.66666667,10.7777778 5.82222222,10.7777778 C6.97777777,10.7777778 7.93333333,9.82222222 7.93333333,8.66666667 C7.93333333,8.42222223 8.13333333,8.22222223 8.37777778,8.22222222 C8.62222223,8.2222222 8.82222222,8.42222222 8.82222222,8.66666667 C8.82222222,10.3111111 7.46666666,11.6666667 5.82222222,11.6666667 Z"
+            id="路径" fill="#00FCFF"></path>
+          <path
+            d="M10.9333333,11.6666667 C10.3111111,11.6666667 9.71111111,11.4888889 9.22222222,11.1333333 C9.02222222,11 8.97777778,10.7111111 9.11111111,10.5111111 C9.24444444,10.3111111 9.53333333,10.2666667 9.73333333,10.4 C10.0888889,10.6444444 10.5111111,10.7777778 10.9333333,10.7777778 C12.0888889,10.7777778 13.0444444,9.82222222 13.0444444,8.66666667 C13.0444444,7.51111113 12.0888889,6.55555556 10.9333333,6.55555556 C9.77777778,6.55555556 8.82222222,7.51111112 8.82222222,8.66666667 C8.82222222,8.91111111 8.62222222,9.11111111 8.37777778,9.11111111 C8.13333334,9.11111111 7.93333333,8.91111111 7.93333333,8.66666667 C7.93333333,7.02222223 9.28888889,5.66666667 10.9333333,5.66666667 C12.5777778,5.66666667 13.9333333,7 13.9333333,8.66666667 C13.9333333,10.3111111 12.5777778,11.6666667 10.9333333,11.6666667 Z"
+            id="路径" fill="#00FCFF"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container {
+    .top-content {
+        color: #fff;
+        position: relative;
+        margin-bottom: 10px;
+        .back-dev-list {
+            position: absolute;
+            color: #00feff;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .tab-content {
+            display: flex;
+            width: 450px;
+            justify-content: space-around;
+            margin: auto;
+            .tab-item {
+                width: 100px;
+                height: 28px;
+                background: rgba(17, 24, 68, 0.86);
+                border: 1px solid rgba(17, 24, 68, 0.86);
+                box-shadow: inset 0 0 10px 1px rgba(16, 100, 221, 0.5);
+                text-align: center;
+                line-height: 28px;
+                cursor: pointer;
+            }
+            .active {
+                background: rgba(17, 40, 68, 0.86);
+                border: 1px solid #00fff4;
+            }
+        }
+    }
+    .container-body {
+        color: #fff;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        min-height: 600px;
+        max-height: 670px; // 最大高度800px - 标题30px -内容的上下padding 24*2 px - 内容里面的tab标签高度30px - dialog的外padding-bottom 24px =大约剩余670px
+        height: 100%;
+    }
+    :global {
+        .dev-container-body {
+            /* 设置滚动条的样式 */
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            /* 滚动槽 */
+            &::-webkit-scrollbar-track {
+                border-radius: 4px;
+            }
+            /* 滚动条滑块 */
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background-color: #5d97bd;
+            }
+            &::-webkit-scrollbar-thumb:window-inactive {
+                background: #5d97bd;
+            }
+        }
+    }
+}

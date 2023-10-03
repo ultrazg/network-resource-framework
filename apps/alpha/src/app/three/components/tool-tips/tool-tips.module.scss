@@ -1,0 +1,38 @@
+.pop {
+  position: absolute;
+  min-width: 150px;
+  min-height: 50px;
+  top: 10px;
+  background: no-repeat center;
+  background-size: 100% 100%;
+  display: none;
+  padding: 10px;
+  z-index: 999;
+  font-size: 14px;
+  color: #01ffff;
+  .title {
+    margin-bottom: 10px;
+    span {
+      font-size: 12px;
+      font-family: 'PMZD', sans-serif;
+      color: white;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  .sub {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    .sub-name {
+      color: #32c5ff;
+      flex: 1;
+    }
+    .sub-value {
+      display: inline-block;
+      flex: 1;
+      margin-left: 10px;
+    }
+  }
+}

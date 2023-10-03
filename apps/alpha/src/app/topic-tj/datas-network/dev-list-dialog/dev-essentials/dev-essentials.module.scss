@@ -1,0 +1,512 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.port-detail-view {
+  position: absolute;
+  width: 220px;
+  background: url("../assets/images/tooltip-bg.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: 9999;
+  transform: scale(1.2);
+
+  .port-detail-content {
+    padding: 15px;
+
+    .port-name {
+      font-family: FZZDHJW, sans-serif;
+      font-weight: 0;
+      font-size: 12px;
+      color: #00FCFF;
+      letter-spacing: 0;
+      margin-bottom: 10px;
+    }
+
+    .port-detail-list {
+      align-items: center;
+
+      .port-detail-list-icon {
+        display: inline-block;
+        padding-top: 4px;
+
+        img {
+          width: 18px;
+          height: 13px;
+        }
+      }
+
+
+      .port-detail-title {
+        font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #00C5F5;
+        letter-spacing: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .port-detail-text {
+        text-align: center;
+        font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+      }
+
+      .port-detail-text-occupy {
+        text-align: center;
+        font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 12px;
+        color: #D5913A;
+        background-image: linear-gradient(90deg, rgba(168, 100, 42, 0.12) 0%, rgba(168, 100, 42, 0.30) 48%, rgba(168, 100, 42, 0.12) 100%);
+      }
+
+      .port-detail-text-free {
+        text-align: center;
+        font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #3DFBFF;
+        background-image: linear-gradient(90deg, rgba(61, 251, 255, 0.00) 0%, rgba(61, 251, 255, 0.28) 48%, rgba(61, 251, 255, 0.00) 100%);
+        letter-spacing: 0;
+        line-height: 12px;
+      }
+    }
+  }
+}
+
+.container {
+
+  .dev-item-title {
+    position: relative;
+    font-family: 'FZZDHJW', sans-serif;
+    font-weight: 0;
+    font-size: 16px;
+    margin: 10px 0;
+
+    .dev-title-line {
+      width: 100%;
+      height: 4px;
+      background: url("../assets/images/title-line.png") no-repeat;
+    }
+
+    .right-lenged {
+      text-align: right;
+      font-size: 12px;
+      font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+      font-weight: 400;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      span {
+        padding-top: 2px;
+        padding-left: 5px;
+        position: relative;
+        display: inline-block;
+      }
+
+      span:before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        top: 3px;
+        width: 15px;
+        height: 15px;
+        border: 2px solid;
+        border-image: linear-gradient(0deg, #012c57, #3cc4ff) 1 1;
+        clip-path: inset(0 0 round 4px);
+      }
+
+      > :last-child {
+        margin-left: 25px;
+      }
+
+      > :last-child:before {
+        border: 2px solid;
+        border-image: linear-gradient(180deg, #c48900, #fdd605) 1 1;
+        background-image: linear-gradient(180deg, #c48900 0%, #fdd605 100%);
+      }
+    }
+  }
+
+  .dev-info {
+    .dev-info-row {
+      display: flex;
+      padding: 10px;
+
+      &:nth-child(odd) {
+        //双行
+        // background-image: linear-gradient(270deg, rgba(0,141,224,0.00) 0%, rgba(0,128,224,0.20) 51%, rgba(0,141,224,0.00) 99%);
+      }
+
+      &:nth-child(even) {
+        //单行
+        background: rgba(4, 76, 138, 0.3);
+      }
+
+      .dev-info-item {
+        width: 25%;
+        color: rgba(2, 186, 255, 1);
+        font-size: 14px;
+        font-family: PingFangSC, sans-serif;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-align: left;
+        height: 16px;
+        line-height: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        .dev-item-value {
+          color: #ffffff;
+        }
+      }
+
+      .dev-info-itemLast {
+        width: 75%;
+      }
+    }
+  }
+
+  .dev-port-info {
+    .dev-port-content {
+      display: flex;
+
+      .content-left {
+        width: 500px;
+        padding-right: 50px;
+
+        .left-lenged {
+          text-align: right;
+          font-size: 12px;
+          margin: 16px 0;
+          font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+          font-weight: 400;
+
+          span {
+            position: relative;
+            display: inline-block;
+          }
+
+          span:before {
+            content: "";
+            position: absolute;
+            left: -18px;
+            top: 3px;
+            width: 10px;
+            height: 10px;
+            background-color: #00f8ff;
+          }
+
+          > :last-child {
+            margin-left: 25px;
+          }
+
+          > :last-child:before {
+            background-color: #004a9d;
+          }
+        }
+
+        .content-lef-top {
+          display: flex;
+          justify-content: space-between;
+
+          .port-item {
+            width: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("../assets/images/port-info-bg.png") no-repeat;
+            height: 54px;
+
+            // em {
+            //   margin-right: 10px;
+            // }
+
+            .icon-pub-jianbian {
+              font-size: 20px;
+              height: 20px;
+              width: 30px;
+              line-height: 20px;
+              background-image: -webkit-linear-gradient(270deg, #00f8ff, #004a9d);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .port-item-label {
+              width: 60.58px;
+              height: 17px;
+              font-family: PingFangSC-Regular, sans-serif;
+              font-weight: 400;
+              font-size: 12px;
+              color: #ffffff;
+              padding-left: 5px;
+            }
+
+            .port-item-value {
+              width: 70px;
+              height: 16px;
+              font-family: PMZD, sans-serif;
+              font-size: 16px;
+              color: #00ffff;
+              padding-left: 5px;
+            }
+          }
+        }
+
+        .content-lef-body {
+          .port-list-box {
+            font-size: 14px;
+            display: flex;
+            margin-bottom: 14px;
+            align-items: center;
+
+            > span,
+            > em,
+            > div {
+              display: inline-block;
+            }
+
+            > :first-child {
+              width: 110px;
+              display: flex;
+              align-items: center;
+            }
+
+            > :last-child {
+              font-family: PMZD, sans-serif;
+              color: #00FCFF;
+              margin-left: 10px;
+            }
+
+            .port-list-type {
+              display: inline-block;
+              overflow: hidden;
+              text-align: center;
+              font-size: 14px;
+              width: 32px;
+              height: 26px;
+              line-height: 26px;
+              background: url("../assets/images/port-info-item.png");
+              background-size: 100% 100%;
+              background-repeat: no-repeat;
+              margin-right: 10px;
+
+              em {
+                display: block;
+              }
+
+              .port-list-icon {
+                font-size: 12px;
+                width: 12px;
+                height: 20px;
+                line-height: 20px;
+                margin: auto;
+                background-image: -webkit-linear-gradient(270deg, #00f8ff, #136cb2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+            }
+
+            .port-list-num {
+              color: #ffffff;
+              width: 80px;
+              font-size: 12px;
+              text-align: left;
+              font-family: PingFangSC-SNaNpxibold, sans-serif;
+              font-weight: 600;
+
+              .port-list-value {
+                font-family: PMZD, sans-serif;
+                font-size: 12px;
+                color: #00fcff;
+                font-weight: inherit;
+              }
+            }
+
+            .port-list-l-num {
+              margin-top: 3px;
+            }
+
+            .port-list-progress {
+              .port-list-count {
+                display: flex;
+                justify-content: space-between;
+                font-family: PMZD, sans-serif;
+                font-size: 12px;
+              }
+
+              .port-list-line {
+                margin-top: 3px;
+                position: relative;
+                background-color: #165ea6;
+                height: 16px;
+                width: 315px;
+                overflow: hidden;
+
+                .lineInner {
+                  position: absolute;
+                  height: 16px;
+                  background-color: #00f8ff;
+                  top: 0;
+
+                  .round {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 0;
+                    height: 0;
+                    border-width: 0 0 7px 7px;
+                    border-style: solid;
+                    border-color: transparent transparent #203c5d;
+                  }
+                }
+
+                .port-list-left {
+                  font-size: 12px;
+                  color: #ffffff;
+                }
+
+                .port-list-right {
+                  position: absolute;
+                  right: 10px;
+                  font-size: 12px;
+                  top: 0px;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .content-middel {
+        width: 2px;
+        background-image: linear-gradient(
+            180deg,
+            rgba(0, 149, 255, 0) 0%,
+            rgba(0, 198, 255, 0.37) 50%,
+            rgba(0, 149, 255, 0) 100%
+        );
+        margin: 10px;
+      }
+
+      .content-right {
+        flex: 1;
+        position: relative;
+
+        .content-right-body {
+          display: flex;
+          position: relative;
+
+          .content-right-item {
+            width: 50%;
+            margin: 0 auto;
+
+            .item-title {
+              background-image: linear-gradient(
+                  270deg,
+                  rgba(10, 81, 153, 0) 0%,
+                  rgba(10, 81, 153, 0.4) 51%,
+                  rgba(10, 81, 153, 0) 100%
+              );
+              height: 28px;
+              line-height: 28px;
+              font-family: FZZDHJW, sans-serif;
+              font-weight: 0;
+              font-size: 14px;
+              color: #ffffff;
+              width: 210px;
+              margin: 10px auto;
+              text-align: center;
+            }
+
+            .item-list {
+              background: url("../assets/images/port-bg.png");
+              background-size: 100% 100%;
+              background-repeat: no-repeat;
+              width: 250px;
+              //height: 190px;
+              margin: auto;
+              padding: 25px 40px;
+
+              .item-body {
+                height: 230px;
+                overflow: hidden;
+                overflow-y: auto;
+
+                .item-col {
+                  display: block;
+                  float: left;
+                  width: 10px;
+                  height: 10px;
+                  margin: 0 8px 8px 0;
+                  clip-path: inset(0 0 round 4px);
+                }
+
+                .item-col:hover {
+                  border-image: linear-gradient(0deg, #012c57, #3cc4ff);
+                  background: #3cc4ff;
+                }
+
+                .free {
+                  border: 2px solid;
+                  border-image: linear-gradient(0deg, #012c57, #3cc4ff) 1 1;
+                }
+
+                .occupy {
+                  border: 2px solid;
+                  border-image: linear-gradient(180deg, #c48900, #fdd605) 1 1;
+                  background-image: linear-gradient(180deg, #c48900 0%, #fdd605 100%);
+                }
+              }
+            }
+
+            :global {
+              .dev-port-content {
+                /* 设置滚动条的样式 */
+                &::-webkit-scrollbar {
+                  width: 5px;
+                }
+
+                /* 滚动槽 */
+                &::-webkit-scrollbar-track {
+                  border-radius: 4px;
+                }
+
+                /* 滚动条滑块 */
+                &::-webkit-scrollbar-thumb {
+                  border-radius: 10px;
+                  background-color: #5d97bd;
+                }
+
+                &::-webkit-scrollbar-thumb:window-inactive {
+                  background: #5d97bd;
+                }
+              }
+            }
+          }
+        }
+
+        .content-right-footer {
+          height: 68px;
+          background: url("../assets/images/right-footer.png");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          bottom: 0;
+          width: 80%;
+          left: 13%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 38" class="design-iconfont">
+  <defs>
+    <linearGradient x1="99.3923801%" y1="50%" x2="1.47189396%" y2="50%" id="gh7521c1a__7xafq7fvib">
+      <stop stop-color="#4F565C" stop-opacity="0" offset="2.19846072%" />
+      <stop stop-color="#03064B" stop-opacity=".80225719" offset="100%" />
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="gh7521c1a__ridy0qu2oa">
+      <stop stop-color="#498DBB" stop-opacity="0" offset="0%" />
+      <stop stop-color="#1F9BF3" offset="100%" />
+    </linearGradient>
+    <linearGradient x1="50%" y1="8.98915309%" x2="50%" y2="95.7016746%" id="gh7521c1a__sduniazvbc">
+      <stop stop-color="#29DFFF" offset="0%" />
+      <stop stop-color="#29ACFF" offset="100%" />
+    </linearGradient>
+    <linearGradient x1="50%" y1="8.98915309%" x2="50%" y2="95.7016746%" id="gh7521c1a__zuj9mgp19d">
+      <stop stop-color="#29DFFF" offset="0%" />
+      <stop stop-color="#29ACFF" offset="100%" />
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#gh7521c1a__sduniazvbc)" opacity=".50099545"
+      d="M20.0311956 9.66396295L11.3977033 18.4784188 20.0311956 27.200139z" transform="translate(.763349 1)" />
+    <path
+      d="M14.5130955,4.98131014 C15.3574293,4.98131014 17.1967959,4.98131014 20.0311956,4.98131014 L6.53753161,18.432051 L20.0311956,31.9755275 L13.2843636,31.9755275 L0,18.4784188 C8.83106328,9.48034636 13.6687618,4.98131014 14.5130955,4.98131014 Z"
+      fill="url(#gh7521c1a__zuj9mgp19d)" transform="translate(.763349 1)" />
+  </g>
+</svg>

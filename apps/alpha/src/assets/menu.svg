@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="965px" height="38px" viewBox="0 0 965 38" version="1.1">
+  <title>路径 53</title>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="39.6433835%" id="linearGradient-1">
+      <stop stop-color="#00128C" offset="0%"></stop>
+      <stop stop-color="#0F0D40" offset="99.7000314%"></stop>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+      <stop stop-color="#0162FE" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#00FEFF" offset="45.7642574%"></stop>
+      <stop stop-color="#015BFE" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="二级页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="IDC资源" transform="translate(-477.000000, -1042.000000)" fill="url(#linearGradient-1)" stroke="url(#linearGradient-2)" stroke-width="2">
+      <g id="tab" transform="translate(436.000000, 1042.000000)">
+        <path d="M394.070714,2.00770741 C404.237147,0.910601092 461.820297,0.871586811 520.270989,1.12585906 L526.318799,1.15317793 C566.632711,1.34186035 606.595803,1.6574935 630.939167,1.84920838 C642.845795,1.9429784 651.01883,2.00732193 653.674622,2.01306158 L654.021186,2.01347982 C658.727903,2.01347982 666.230906,5.4808392 675.733056,9.7962742 C692.528852,17.4241442 715.403728,27.784746 740.08378,27.784746 C763.893174,27.784746 853.058214,31.544358 1007.57891,39.0621611 L1007.57891,39.0621611 L39.4628521,39.0621611 C188.900836,31.5443538 278.303842,27.784746 307.67188,27.784746 C334.000233,27.784746 351.162149,20.7187612 364.788515,13.9328504 L365.722728,13.4653899 C367.425425,12.6095201 369.073672,11.7608274 370.678849,10.9341599 C379.116455,6.58878577 386.332393,2.84278508 394.070714,2.00770741 Z" id="路径-53"></path>
+      </g>
+    </g>
+  </g>
+</svg>

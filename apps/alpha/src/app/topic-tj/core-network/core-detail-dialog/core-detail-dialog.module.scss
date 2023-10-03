@@ -1,0 +1,411 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+$bgImg: url('../../images/dialogNewBg.png');
+.container {
+  .boxHeader {
+    padding: 6px;
+    border-bottom: 1px solid #fff;
+    border-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 10%,
+        rgba(255, 255, 255, 0.69) 40%,
+        rgba(255, 255, 255, 0) 70%
+    ) 1 1;
+  }
+
+  .detailBox {
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 18px;
+          height: 20px;
+        }
+      }
+    }
+
+    .label {
+      color: #00feff;
+      white-space: nowrap;
+    }
+
+    .leftDetail {
+      .iconList {
+        margin-top: 105px;
+
+        .activeIcon {
+          background: url('../../images/core-network.png') no-repeat !important;
+          background-size: 100% 100% !important;
+        }
+
+        .networkIcon {
+          position: relative;
+          margin-left: 20px;
+          width: 180px;
+          height: 90px;
+          display: block;
+          background: url('../../images/core-network1.png') no-repeat;
+          background-size: 100% 100%;
+          cursor: pointer;
+          // &:first-of-type {
+          //   background: url('../../images/core-network.png') no-repeat;
+          //   background-size: 100% 100%;
+          // }
+          &:not(:first-of-type) {
+            margin-top: -40px;
+          }
+        }
+      }
+
+      .moreIcon {
+        margin-top: 40px;
+      }
+
+      .frameMsg {
+        width: 195px;
+        height: 145px;
+        background: $bgImg no-repeat;
+        background-size: 100% 100%;
+        margin-right: 36px;
+        padding: 15px;
+
+        .title {
+          // text-align: center;
+          margin: 5px 0 5px;
+          font-size: 14px;
+          // height: 20px;
+          max-height: 40px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          word-break: break-all;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+        }
+
+        .rackId {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+
+        }
+      }
+    }
+
+    .detailRight {
+      position: relative;
+      cursor: pointer;
+
+      .frameDetail {
+        width: 600px;
+        height: 300px;
+        background: $bgImg no-repeat;
+        background-size: 100% 100%;
+        padding: 20px;
+        // float: right;
+      }
+
+      .detail-list {
+        width: 100%;
+        color: #fff;
+        list-style: none;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 13px;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          &:nth-child(n + 1) {
+            flex: 1;
+            margin-right: 28px;
+          }
+        }
+
+        li {
+          img {
+            width: 18px;
+            height: 20px;
+            margin-right: 5px;
+          }
+
+          // float: left;
+          width: 50%;
+          list-style-type: none;
+          margin-bottom: 9px;
+          span{
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+            /* 可以显示的行数，超出部分用...表示*/
+            -webkit-box-orient: vertical;
+            /*控制显示行数*/
+            -webkit-line-clamp: 1;
+          }
+        }
+      }
+
+      .networkBox {
+        width: 600px;
+        height: 265px;
+        background: $bgImg no-repeat;
+        background-size: 100% 100%;
+        padding: 20px;
+        position: absolute;
+        bottom: 0px;
+        background-color: #000c32;
+        opacity: 0.8;
+        border-top-left-radius: 20px;
+
+        .closeBox {
+          width: 100%;
+          text-align: right;
+        }
+
+        .leftList {
+          width: 68px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          border-right: 1px solid #fff;
+          border-image: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.05) 10%,
+              rgba(255, 255, 255, 1) 50%,
+              rgba(255, 255, 255, 0.05) 70%
+          ) 1 1;
+
+          span {
+            position: relative;
+            display: block;
+
+            &:not(:last-of-type) {
+              &::after {
+                position: absolute;
+                content: '';
+                height: 60px;
+                border-left: 1px solid #1757cb;
+                top: 24px;
+                left: 16px;
+                border-image: linear-gradient(180deg, #000c32 0%, #1757cb 100%) 1;
+              }
+            }
+
+            &:nth-of-type(1) {
+              &::after {
+                // border-left: 1px solid #ffffff;
+                border-image: linear-gradient(
+                    180deg,
+                    rgba(255, 255, 255, 0.1) 10%,
+                    #ffffff 100%
+                ) 1;
+              }
+            }
+          }
+        }
+      }
+
+      .showBox {
+        display: block;
+      }
+
+      .hiddenBox {
+        display: none;
+      }
+    }
+
+    .virtualBox {
+      width: 600px;
+      height: 265px;
+      margin-top: 20px;
+      padding: 20px;
+      background: $bgImg no-repeat;
+      background-size: 100% 100%;
+
+      .virtualBox-content {
+        height: 230px;
+        overflow: scroll;
+        overflow-x: hidden;
+        /* 设置滚动条的样式 */
+        &::-webkit-scrollbar {
+          width: 5px;
+        }
+
+        /* 滚动槽 */
+        &::-webkit-scrollbar-track {
+          border-radius: 4px;
+        }
+
+        /* 滚动条滑块 */
+        &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          background-color: #5d97bd;
+        }
+
+        &::-webkit-scrollbar-thumb:window-inactive {
+          background: #5d97bd;
+        }
+      }
+
+      .notData {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        line-height: 133px;
+      }
+
+      .virtualItem {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+
+        .itemLeft {
+          width: 214px;
+          height: 44px;
+          border-radius: 30px;
+          border: 1px solid rgba(0, 203, 250, 1);
+          background: rgba(0, 52, 101, 1);
+          padding: 0 15px 0 0;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+
+          .itemIcon {
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            background: url('../../images/virtual-icon.png') no-repeat;
+            background-size: 100% 100%;
+            margin-right: 10px;
+          }
+
+          .itemLabel {
+            width: calc(100% - 60px);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+
+        .itemLine {
+          position: relative;
+          width: 91px;
+          border-top: 3px dashed #08c9f5;
+          margin: 0 10px;
+
+          &:before {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #00d1ff;
+            top: -5px;
+            left: -6px;
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #00d1ff;
+            top: -5px;
+            right: -6px;
+          }
+        }
+
+        .itemRight {
+          width: 250px;
+          height: 32px;
+          border: 1px solid #00cbfa;
+          border-radius: 30px;
+          background: #003465;
+          padding: 0px 10px;
+          display: flex;
+          align-items: center;
+
+          .rightLabel {
+            display: inline-block;
+            width: 36px;
+            height: 20px;
+            border-radius: 3px;
+            background-color: #055689;
+            color: #00e7fa;
+            text-align: center;
+            margin-right: 5px;
+          }
+
+          .rightValue {
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+
+  .tipBox {
+    width: 165px;
+    height: 110px;
+    background: $bgImg no-repeat;
+    background-size: 100% 100%;
+
+    .tipTitle {
+      margin-left: 10px;
+      text-align: left;
+
+      border-bottom: 1px solid #fff;
+      border-image: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 10%,
+          rgba(255, 255, 255, 0.69) 40%,
+          rgba(255, 255, 255, 0) 70%
+      ) 1 1;
+    }
+
+    p {
+      padding: 5px 0;
+      margin: 0;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+
+  :global {
+    .ant-modal-content {
+      padding: 0;
+      background: transparent !important;
+      background-image: url('../../images/core-networkBg.png') !important;
+      background-repeat: no-repeat !important;
+      background-size: 580px 630px !important;
+      background-position: left bottom !important;
+    }
+
+    .ant-modal-close {
+      margin: 0 !important;
+    }
+  }
+}

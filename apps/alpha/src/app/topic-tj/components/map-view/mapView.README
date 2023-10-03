@@ -1,0 +1,57 @@
+// 创建打点
+// mapObject.setPoints([
+//   { x: "109.69384052522959", y: "34.121834304894705", icon: png, attr: { test: "测试数据 点" } },
+//   { x: "110.69384052522959", y: "34.121834304894705", icon: png, attr: { test: "测试数据 点" } }
+// ], "测试");
+
+// mapObject.setPoints([
+//   { x: "111.69384052522959", y: "34.121834304894705", icon: png, attr: { test: "测试数据 点" } },
+//   { x: "111.69384052522959", y: "33.121834304894705", icon: png, attr: { test: "测试数据 点" } }
+// ], "测试1");
+
+// 创建线
+// mapObject.setLines([
+//   { points: [["109.69384052522959", "34.121834304894705"], ["110.69384052522959","34.121834304894705"],["109.69384052522959", "35.121834304894705"]], attr: { test: "测试数据 线" } }
+// ], "测试");
+
+// mapObject.setLines([
+//   { points: [["103.69384052522959", "34.121834304894705"], ["109.69384052522959","34.121834304894705"],["108.69384052522959", "35.121834304894705"]], attr: { test: "测试数据 线" } }
+// ], "测试1");
+
+// mapObject.onclick((e: layerClickParams)=>{
+//   console.log(e)
+// })
+
+// setTimeout(()=>{
+//   // 清除
+  // mapObject.clear("测试");
+// }, 5000)
+
+// 获取省份的地市信息
+// mapObject.getCityListByProvince("630000000000").then((e: any)=>{
+//   
+// })
+
+// 监听地图拖动事件
+// mapObject.onChange(function(e: any){
+//   console.log("onchange", e);
+// })
+
+// 多个title传dom实例
+// mapObject?.showTitles(labelPointsShe.map((e)=>{ return {point: [e.x, e.y], title: e.text, datas: e.attr, dom: <div> 自定义内容 </div>} }), ()=>{
+//   console.log("被点击了")
+// });
+
+// 自定义window dom实例
+// mapObject?.showWindowDom(point: ["112", "22"] , <div> 自定义内容 </div> , ()=>{
+//   console.log("被点击了")
+// });
+
+
+// 新增地图组件的添加方式
+mapFnObject.addPlugin(<MapSummaryArray key={ "liao" } datas={ [
+  {title:'ceshibiaoti' ,datas: [{ name: "测试", value: "123456"}] , point: new BMapGL.Point(127.06641568767478, 48.27976555411721) },
+  {title:'ceshibiaoti123' ,datas: [{ name: "测试1", value: "123456"}] , point: new BMapGL.Point(128.84841297171565, 47.12986996426503) },
+] } ></MapSummaryArray>)
+// 地图组件删除功能
+mapFnObject.removePlugin("liao" | MapSummaryArray);

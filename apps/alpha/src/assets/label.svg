@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="26px" viewBox="0 0 119 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none meet">
+    <title>省份总览</title>
+    <defs>
+        <linearGradient x1="99.3923801%" y1="50%" x2="56.109951%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#03064B" stop-opacity="0.798770078" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFD00" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FDFF00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资源可视化6.0-接入网" transform="translate(-949.000000, -539.000000)" fill="url(#linearGradient-1)" stroke="url(#linearGradient-2)">
+            <g id="编组-9备份-14" transform="translate(949.000000, 540.000000)">
+                <polygon id="省份总览" transform="translate(60.109345, 12.000000) scale(1, -1) translate(-60.109345, -12.000000) " points="1 0 1 15.4686697 10.4929898 24 119.218691 24 119.218691 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+.itemContainer {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    height: 117px;
+    border-bottom: 1px solid #195796;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .item-left {
+        width: 56px;
+        height: 77px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        img{
+            width: 73px;
+            height: 53px;
+        }
+    }
+
+    .item-right {
+        width: calc(100% - 73px);
+        height: 77px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 15px;
+
+        .item-topBox {
+            width: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .topBox-name {
+                font-size: 16px;
+                overflow: hidden;
+                /*超出部分隐藏*/
+                text-overflow: ellipsis;
+                /* 超出部分显示省略号 */
+                white-space: nowrap;
+                width: 180px;
+                /*规定段落中的文本不进行换行 */
+                // width: 240px;
+                // font-size: 12px;
+            }
+
+            .topBox-level {
+                font-size: 12px;
+                color: rgba(0,254,255,1);
+                font-weight: 400;
+                font-family: "Microsoft YaHei", sans-serif;
+                text-align: center;
+                padding: 4px 10px;
+                border: 1px solid rgba(24,113,217,1);
+                background: linear-gradient(270deg, rgba(7,28,92,0.5) 0%, rgba(7,28,92,0.6) 100%);
+            }
+        }
+
+        .item-middle {
+            font-size: 12px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+            text-align: left;
+
+            .middletext {
+                color: #00C5F5;
+                width: 50%;
+
+                .lng {
+                    color: #ffffff;
+                }
+
+                .lat {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .item-address {
+            width: 100%;
+            color: #ffffff;
+            font-size: 12px;
+
+            // padding-right: 30px;
+            // text-align: left;
+            .addresstext {
+                display: inline-block;
+                color: #00C5F5;
+            }
+        }
+    }
+    &.bgcStyle {
+        background: linear-gradient(270deg, rgba(238, 238, 238, 0.00), rgba(0, 253, 255, 0.32) 50%, rgba(216, 216, 216, 0.00));
+    }
+}
+.container{
+    :global{
+        .resourceGraphList{
+            height: auto;
+            max-height: 940px;
+            .list{
+                height: 705px;
+            }
+            &.searchMore{
+                .list{
+                height: 760px;
+                }
+            }
+        }
+        .windowBox{
+            padding: 0;
+            background: none;
+        }
+    }
+}
+
+.RoomDetailDialog{
+    width: 125px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(9,99,214,1);
+    background: rgba(9,99,214,0.0);
+    box-shadow: inset 0 4px 40px 0 rgba(9,99,214,0.6);
+    position: relative;
+    // &::after{
+    //     content: '';
+    //     position: absolute;
+    //     width: 0;
+    //     height: 0;
+    //     left: -20px;
+    //     top: 3px;
+    //     border-top: 15px solid transparent;
+    //     border-right: 20px solid rgba(9,99,214,0.6);
+    //     border-bottom: 15px solid transparent;
+    // }
+    .RoomDetailItem{
+        height: 43px;
+        line-height: 43px;
+        padding: 0 10px;
+        width: 100%;
+        color: rgba(255,255,255,1);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Microsoft YaHei", sans-serif;
+        text-align: left;
+        border-bottom: 1px solid #0963D6;
+        cursor: pointer;
+        display: block;
+        box-sizing: border-box;
+        overflow: hidden;text-overflow:ellipsis;white-space: nowrap;
+    }
+}

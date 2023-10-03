@@ -1,0 +1,67 @@
+.wirelessNetworkLeged {
+    position: absolute;
+    left: 420px;
+    bottom: 76px;
+    z-index: 50;
+    background: #121D2F;
+    border: 1px solid rgba(0, 124, 255, 0.64);
+    box-shadow: inset 0 0 22px 0 rgba(0,122,255,0.23);
+    border-radius: 4px;
+    .right-icon-row {
+        clear: both;
+        display: flex;
+
+        .className {
+            float: left;
+            width: 58px;
+            text-align: center;
+            padding: 10px 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .right-icon-item {
+            opacity: 1;
+            color: #00c5f5;
+            padding: 24px;
+            flex: 1;
+
+            .icon-item {
+                text-align: left;
+                min-width: 120px;
+                display: flex;
+                padding-bottom: 20px;
+                margin-right: 14px;
+                &:last-child{
+                    padding-bottom: 0;
+                }
+            }
+
+            .icon-line {
+                border-top: 3px solid;
+                width: 14px;
+                margin-top: 10px;
+                margin-right: 4px;
+            }
+
+            .icon-img{
+                width: 26px;
+                height: 26px;
+            }
+
+            .right-icon-label {
+                font-size: 12px;
+                margin-left: 15px;
+                display: flex;
+                align-items: center;
+            }
+
+            .menu-item {
+                padding: 10px 0;
+                background: #007ca5;
+                height: 40px;
+            }
+        }
+    }
+}

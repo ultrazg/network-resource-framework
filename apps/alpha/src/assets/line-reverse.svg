@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="33px" viewBox="0 0 60 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none meet">
+    <title>选中-left</title>
+    <g id="二级页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BO协同订单治理" transform="translate(-1026.000000, -527.000000)">
+            <g id="编组-11" transform="translate(811.998739, 528.000000)">
+                <g id="选中-left" transform="translate(214.001261, 0.000000)">
+                    <circle id="椭圆形" fill="#01FFFF" transform="translate(57.000000, 29.000000) scale(1, -1) translate(-57.000000, -29.000000) " cx="57" cy="29" r="3"></circle>
+                    <polyline id="路径-5" stroke="#01FFFF" transform="translate(28.500000, 14.500000) scale(1, -1) translate(-28.500000, -14.500000) " points="0 29 17.5462208 29 35.8413074 0 57 0"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

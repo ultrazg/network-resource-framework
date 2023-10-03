@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="453px" height="92px" viewBox="0 0 453 92" version="1.1">
+  <title>底座二层</title>
+  <defs>
+    <linearGradient x1="50%" y1="3.40079181%" x2="50%" y2="100%" id="linearGradient-1">
+      <stop stop-color="#0B1946" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#24447D" offset="87.2747711%"></stop>
+      <stop stop-color="#1E5195" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="55.7820142%" x2="50%" y2="100%" id="linearGradient-2">
+      <stop stop-color="#C8C8C8" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#2C456F" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="100%" x2="50%" y2="22.8178075%" id="linearGradient-3">
+      <stop stop-color="#DDF9FF" offset="0%"></stop>
+      <stop stop-color="#77E0FF" offset="3.95424203%"></stop>
+      <stop stop-color="#5EACFF" offset="17.5368524%"></stop>
+      <stop stop-color="#75AEE2" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+      <stop stop-color="#DDEEFF" offset="0%"></stop>
+      <stop stop-color="#77ACFF" offset="5.75471891%"></stop>
+      <stop stop-color="#718BFF" offset="17.5368524%"></stop>
+      <stop stop-color="#75AEE2" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="98.5496681%" id="linearGradient-5">
+      <stop stop-color="#1E377D" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#2764C0" offset="48.2482715%"></stop>
+      <stop stop-color="#CEDEF5" offset="68.9487769%"></stop>
+      <stop stop-color="#377CC8" offset="90.1131892%"></stop>
+      <stop stop-color="#B4E4FD" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="资源可视化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="资源可视化6.0" transform="translate(-209.000000, -870.000000)">
+      <g id="编组-25" transform="translate(140.000000, 821.000000)">
+        <g id="编组-35" transform="translate(0.000000, 50.000000)">
+          <g id="底座二层" transform="translate(70.000000, 0.000000)">
+            <ellipse id="椭圆形备份-16" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="222.26482" cy="39.8969072" rx="212.367912" ry="39.8969072"></ellipse>
+            <ellipse id="椭圆形备份-15" stroke="url(#linearGradient-3)" cx="225.463918" cy="50.1030928" rx="225.463918" ry="39.8969072"></ellipse>
+            <ellipse id="椭圆形备份-14" stroke="url(#linearGradient-4)" cx="222.26482" cy="35.3253866" rx="167.483892" ry="22.8576031"></ellipse>
+            <path d="M222.963918,0.5 C343.638135,0.5 441.463918,17.2893219 441.463918,38 C441.463918,58.7106781 343.638135,75.5 222.963918,75.5 C102.2897,75.5 4.46391753,58.7106781 4.46391753,38 C4.46391753,17.2893219 102.2897,0.5 222.963918,0.5 Z M223.463918,2.5 C108.036405,2.5 14.4639175,18.1700338 14.4639175,37.5 C14.4639175,56.8299662 108.036405,72.5 223.463918,72.5 C338.89143,72.5 432.463918,56.8299662 432.463918,37.5 C432.463918,18.1700338 338.89143,2.5 223.463918,2.5 Z" id="形状结合" fill="url(#linearGradient-5)"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

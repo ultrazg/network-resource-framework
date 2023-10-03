@@ -1,0 +1,132 @@
+.flexBox {
+  display: flex;
+  justify-content: center;
+}
+
+.sand_topic_box {
+  position: fixed;
+  z-index: 98;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .topic {
+    position: relative;
+
+    .topic_popover {
+      width: 148px;
+      position: absolute;
+
+      .topicChildrenList {
+        .topicChildrenlist_item {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 600;
+          height: 39px;
+          background: url('./images/themeList_bg.png') no-repeat;
+          background-size: 100% auto;
+          text-align: center;
+          line-height: 39px;
+
+          &.active {
+            background: url('./images/themeList_active.png') no-repeat;
+            background-size: 100% auto;
+          }
+        }
+
+        &::after {
+          display: block;
+          content: '';
+          width: 40px;
+          height: 25px;
+          background: url('./images/themePoint.png') no-repeat;
+          background-size: 100% auto;
+          margin: 4px auto;
+        }
+      }
+    }
+
+    .topic_item {
+      width: 88px;
+      height: 48px;
+      background: url(./images/theme_bg.png) no-repeat;
+      background-size: 100% auto;
+      color: #fff;
+      text-align: center;
+      padding: 9px 0 0 0;
+      margin: 0 20px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      cursor: pointer;
+
+      &.active {
+        background: url('images/theme_active_bg.png') no-repeat;
+        background-size: 100% auto;
+      }
+    }
+  }
+
+  .current_topic {
+    width: 1200px;
+    height: 66px;
+    background: url('./images/sandFooter_bg.png') no-repeat;
+    margin: 0 auto;
+    background-size: 100% auto;
+    background-position: center bottom;
+    box-sizing: border-box;
+    .content_box {
+      color: #fff;
+      height: 100%;
+      padding: 28px 0 0;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      .title {
+        margin: 0 10px;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'FZZDHJW', sans-serif;
+        font-weight: initial;
+        em{
+          font-size: 10px;
+          margin-right: 6px;
+        }
+        &.active {
+          color: #54F9F6;
+          font-weight: 800;
+          em{
+            color: #54F9F6;
+          }
+        }
+
+        // &::before {
+        //   display: inline-block;
+        //   content: '';
+        //   width: 32px;
+        //   height: 28px;
+        //   background: url('./images/sandFooter_title_icon.png') no-repeat;
+        //   background-size: 100% auto;
+        //   margin-right: 10px;
+        //   vertical-align: middle;
+        // }
+      }
+
+      .exitIcon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-color: #165e8d;
+        border-radius: 1px;
+        line-height: 20px;
+        text-align: center;
+        margin-left: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}

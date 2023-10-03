@@ -1,0 +1,33 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container{
+    text-align: right;
+    .desc-item{
+        margin-left: 20px;
+        font-size: 12px;
+        font-family: PingFangSC-Regular, PingFang SC, sans-serif;
+        font-weight: 400;
+        color: rgba(144, 144, 144, 1);
+        display: inline-block;
+        :global{
+          .tj-iconfont {
+            font-size: 12px;
+          }
+        }
+        .roundRect {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            color: #909090;
+            border-radius: 2px;
+        }
+        .name{
+            margin-left: 8px;
+        }
+    }
+}

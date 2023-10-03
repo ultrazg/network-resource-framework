@@ -1,0 +1,277 @@
+.baseStationLoop {
+    position: absolute;
+    z-index: 99;
+    right: 15px;
+    top: 65px;
+    .countRoom {
+        position: relative;
+        text-align: center;
+        color: #01aedc;
+
+        &::before {
+            content: "";
+            width: 100px;
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 1px;
+            background: linear-gradient(90deg, #49d0ff00, #1fdeff);
+        }
+
+        &::after {
+            content: "";
+            width: 100px;
+            position: absolute;
+            right: 0%;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 1px;
+            background: linear-gradient(90deg, #1fdeff, #49d0ff00);
+        }
+    }
+
+    .siteDetailsList {
+        padding: 15px;
+        width: 400px;
+        max-height: 790px;
+        background: linear-gradient(180deg, #010d35 1%, #031135 97%);
+        border: 1px solid #1c93ff;
+        box-sizing: border-box;
+        .siteDrtails {
+            position: relative;
+            background: rgba(34, 60, 113, 0.36);
+            margin-top: 10px;
+            padding: 10px;
+            .roomName {
+                margin-left: 0 !important;
+                color: #fff;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+        .siteDetailsListRooms {
+            height: calc(100% - 10px);
+        }
+
+        .siteDetailsItem {
+            cursor: pointer;
+            font-size: 16px;
+            box-sizing: content-box;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid #195796;
+            .left {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                .name {
+                    margin-left: 0 !important;
+                    color: #fff;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+                .left-middle {
+                    margin-left: 13px;
+                    color: #fff;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    .left-middle-title {
+                        font-size: 16px;
+                        display: flex;
+                        margin-bottom: 10px;
+                    }
+                    .left-middle-item {
+                        font-size: 12px;
+                        color: #01aedc;
+                        height: 17px;
+                        font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+                        font-weight: 400;
+                        text-align: left;
+                        line-height: 17px;
+                        margin-bottom: 10px;
+                        > div {
+                            float: left;
+                            width: 50%;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                color: #38fff2;
+                background: linear-gradient(357deg, rgba(0, 110, 146, 0.6) 44%, rgba(0, 149, 222, 0.5) 100%);
+                height: 22px;
+                border-radius: 2px;
+                font-size: 12px;
+                font-family: PingFangSC, PingFangSC-Semibold, sans-serif;
+                font-weight: 600;
+                text-align: center;
+                line-height: 22px;
+                padding: 2px 6px;
+            }
+
+            .bgcStyle {
+                background: linear-gradient(
+                    270deg,
+                    rgba(27, 187, 218, 0),
+                    rgba(11, 133, 180, 0.42) 73%,
+                    rgba(11, 133, 180, 0.01) 99%
+                );
+            }
+        }
+
+        .listContent {
+            cursor: pointer;
+            box-sizing: border-box;
+            width: 100%;
+            height: 650px;
+            padding-bottom: 19px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            /* 设置滚动条的样式 */
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            /* 滚动槽 */
+            &::-webkit-scrollbar-track {
+                border-radius: 4px;
+            }
+            /* 滚动条滑块 */
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background-color: #5d97bd;
+            }
+            &::-webkit-scrollbar-thumb:window-inactive {
+                background: #5d97bd;
+            }
+            .bgcStyle {
+                background: linear-gradient(
+                    270deg,
+                    rgba(238, 238, 238, 0),
+                    rgba(0, 253, 255, 0.32) 50%,
+                    rgba(216, 216, 216, 0)
+                );
+            }
+        }
+    }
+
+    .disappear {
+        z-index: 20;
+        width: 26px;
+        height: 26px;
+        right: 400px;
+        top: 20px;
+        background: linear-gradient(152deg, #0e2152 0%, #010f34 74%);
+        border: 1px solid #1c92ff;
+        border-radius: 0px 4px 0px 0px 4px 0px;
+        box-shadow: 1px 1px 13px 0px rgba(47, 111, 227, 0.54) inset;
+        cursor: pointer;
+        position: absolute;
+        .arrow {
+            background: transparent;
+            border: none;
+            border-radius: none;
+            .inner {
+                margin: 0 auto;
+                margin-top: 9px;
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-right: 8px solid #1c92ff;
+                border-bottom: 4px solid transparent;
+            }
+
+            .hide {
+                display: block;
+                margin: 0 auto;
+                margin-top: 9px;
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-left: 8px solid #1c92ff;
+                border-bottom: 4px solid transparent;
+            }
+            .text {
+                display: none;
+            }
+        }
+    }
+    .disappears {
+        right: 15px;
+        top: 20px;
+    }
+    .listHide {
+        display: none;
+    }
+
+    .pagination {
+        // border: 1px solid rgba(94, 191, 255, 0.58);
+        text-align: center;
+        border-left: 0;
+        border-right: 0;
+        :global {
+            .ant-pagination-prev button,
+            .ant-pagination-next button {
+                color: #fff;
+            }
+            .ant-pagination-item {
+                min-width: 20px;
+                height: 20px !important;
+                line-height: 20px !important;
+                cursor: pointer;
+                box-sizing: border-box;
+                text-align: center;
+                margin: 0;
+                font-size: 12px;
+                a {
+                    color: #888888;
+                }
+                &.ant-pagination-item-active {
+                    color: #fff;
+                    background: linear-gradient(
+                        270deg,
+                        rgba(0, 205, 239, 0.08) 1%,
+                        rgba(0, 205, 239, 0.33) 53%,
+                        rgba(0, 205, 239, 0.08) 99%
+                    ) !important;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+            .ant-pagination-options {
+                .ant-select-selector {
+                    background: transparent;
+                    color: #fff;
+                    border: none;
+                    .ant-select-selection-item {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .ant-select-dropdown {
+                    background: linear-gradient(180deg, rgba(3, 44, 94, 0.94), rgba(3, 26, 61, 0.94)) !important;
+                    border: 1px solid #0a61bb !important;
+                    box-shadow: 0px 8px 8px 0px rgb(2 23 42 / 27%), 0px 0px 6px 1px rgb(16 126 233 / 75%) inset !important;
+                    padding: 10px 0;
+                    .ant-select-item {
+                        color: #fff;
+                        &.ant-select-item-option-active,
+                        &.ant-select-item-option-selected {
+                            background-color: rgba(1, 98, 145, 0.68) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

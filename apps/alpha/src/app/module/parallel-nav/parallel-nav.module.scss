@@ -1,0 +1,12 @@
+.bottom {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1128.45px;
+    height: 40px;
+  }
+}

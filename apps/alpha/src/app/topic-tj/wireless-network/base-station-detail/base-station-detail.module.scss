@@ -1,0 +1,112 @@
+.baseStationDetail {
+    position: absolute;
+    z-index: 99;
+    right: 15px;
+    top: 65px;
+    .disappear {
+        z-index: 20;
+        width: 26px;
+        height: 26px;
+        right: 400px;
+        top: 20px;
+        background: linear-gradient(152deg, #0e2152 0%, #010f34 74%);
+        border: 1px solid #1c92ff;
+        border-radius: 0px 4px 0px 0px 4px 0px;
+        box-shadow: 1px 1px 13px 0px rgba(47, 111, 227, 0.54) inset;
+        cursor: pointer;
+        position: absolute;
+        .arrow {
+            background: transparent;
+            border: none;
+            border-radius: none;
+            .inner {
+                margin: 0 auto;
+                margin-top: 9px;
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-right: 8px solid #1c92ff;
+                border-bottom: 4px solid transparent;
+            }
+
+            .hide {
+                display: block;
+                margin: 0 auto;
+                margin-top: 9px;
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-left: 8px solid #1c92ff;
+                border-bottom: 4px solid transparent;
+            }
+            .text {
+                display: none;
+            }
+        }
+    }
+    .disappears {
+        right: 15px;
+        top: 20px;
+    }
+    .list {
+        padding: 15px;
+        width: 400px;
+        max-height: 790px;
+        background: linear-gradient(180deg, #010d35 1%, #031135 97%);
+        border: 1px solid #1c93ff;
+        box-sizing: border-box;
+
+        .title {
+            font-size: 16px;
+            font-family: PingFangSC, PingFangSC-Regular, sans-serif;
+            font-weight: bold;
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .tabList {
+            display: flex;
+            margin-top: 20px;
+            .btn {
+                width: 71px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                color: #ffffff;
+                font-size: 14px;
+                margin-right: 8px;
+                cursor: pointer;
+                z-index: 100;
+            }
+
+            .active {
+                color: #32c5ff;
+                border-bottom: 1px solid #32c5ff;
+            }
+        }
+
+        .line {
+            width: 389px;
+            height: 1px;
+            background: linear-gradient(270deg, rgba(152, 225, 255, 0.01), #5ebfff);
+        }
+
+        .search {
+            display: flex;
+            margin-top: 12px;
+
+            .input {
+                width: 100%;
+            }
+
+            .btn {
+                width: 75px;
+                flex-shrink: 0;
+            }
+        }
+
+    }
+    .listHide {
+        display: none;
+    }
+}

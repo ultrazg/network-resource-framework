@@ -1,0 +1,34 @@
+// 新增地图重复点列表显示
+mapObject.onclick((e: any) => {
+    if( e.arrayList && e.arrayList.length > 1 ){
+        mapFnObject.addPlugin(
+            <MapPointList onClick={ (e: any)=>{ mapFnObject.removePlugin("pointArrayList") ;mapClick({...e, zoom: window.mapView.map.getZoom()}) } } key={ "pointArrayList" } nameProps={ "china_name" } row={ e.arrayList } 
+            point={ new BMapGL.Point(e.geometry.coordinates[0], e.geometry.coordinates[1]) }></MapPointList>
+        )
+        return;
+    }
+})
+
+
+// 新增地市汇总信息插件
+const getWirelessCityData = LastInterface(()=> {
+    // 首先获取当前省份下面的地市信息
+    return Promise.all([window.mapView.getCenterProvinceAndCity(), getCountBaseStationInfo({ code: center.province.attr.code , name: center.province.attr.name })]).then(([e, data]: any[])=>{
+
+        mapFnObject.removePlugin("liao");
+
+        setTimeout(()=>{
+            mapFnObject.addPlugin(<MapSummaryArray onClick={MapSummaryArrayClick} key={ "liao" } datas={ (["500000000000","310000000000","110000000000","120000000000"].indexOf(e.province.attr.code) > -1 ? [e.province] : e.province.cityPolygon).map((e: any)=> {
+                const d = data.data.wirelessResourcesDtos.find((ea: any)=>{ return ea.cityName.indexOf(e.attr.name) > -1 }) || data.data.wirelessResourcesDtos[0];
+                const ary = [
+                    { name: "2G", value: d.stationNum2g || "0"},
+                    { name: "3G", value: d.stationNum3g || "0"},
+                    { name: "4G", value: d.stationNum4g || "0"},
+                    { name: "5G", value: d.stationNum5g || "0"},
+                ]
+                return { title: e.attr.name + "("+ eval(ary.map((e)=>{ return e.value * 1 }).join("+")) +")" ,datas: ary , point: e.polygon.getBounds().getCenter(), code: e.attr.serveCode }
+                })
+            } ></MapSummaryArray>)
+        }, 300)
+    })
+});

@@ -1,0 +1,367 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+.datas-network {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  background: url('./images/datas-network-bg.png') no-repeat center / 100% 100%;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: url('./images/bg-edge.png') no-repeat center / 100% 100%;
+  }
+}
+// 省份资源总揽
+.province-source-box{
+  padding-top: 10px;
+  h1{
+    position:relative;
+    font-family:"FZZDHJW--GB1", sans-serif;
+    font-size:14px;
+    color:#fff;
+    margin: 26px 0 20px;
+    padding-bottom:5px;
+    &:after{
+      width:363px;
+      height:4px;
+      position:absolute;
+      bottom:0;
+      left:0;
+      content:'';
+      background:url('./images/line.png') no-repeat  center center;
+      background-size:100% 100%;
+    }
+    
+  }
+ .title-eff{
+  &:hover{
+  cursor: pointer;
+  color:#00fcff
+  }
+ }
+.main-cont{
+  width: 406px;
+  display:flex !important;
+  .content{
+    position: relative;
+    width: 120px;
+    height: 65px;
+    margin: 0 7px;
+    flex: 1;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:before{
+      position: absolute;
+      content: '';
+      left:0;
+      bottom: 0;
+      width: 100%;
+      min-height: 65px;
+      background: url('./images/base-img.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .list-item{
+      span{
+        font-size: 14px;
+        font-weight: 600;
+        display: block;
+        &:first-child{
+          font-family:'PingFangSC', sans-serif;
+          color: #00C5F5;
+        }
+        &:last-child{
+          font-size: 20px;
+          font-family:'PangMenZhengDao', sans-serif;
+        }
+      }
+    }
+    .source-icon{
+      width: 50px;
+      height: 43px;
+    }
+    .source-icon-top1{
+      background: url('./images/resource-icon1.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top2{
+      background: url('./images/resource-icon2.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top3{
+      background: url('./images/resource-icon3.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top4{
+      background: url('./images/resource-icon4.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center1{
+      background: url('./images/resource-icon5.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center2{
+      background: url('./images/resource-icon6.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center3{
+      background: url('./images/resource-icon7.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom1{
+      background: url('./images/resource-icon8.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom2{
+      background: url('./images/resource-icon9.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom3{
+      background: url('./images/resource-icon10.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    
+  }
+  .content-active{
+    min-height: 65px;
+    &:before{
+      // top:-10px;
+      min-height: 65px;
+      background: url('./images/base-active-img.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon{
+      position: relative;
+      // margin-top: -15px;
+      // padding-top: 15px;
+      &::before{
+        position: absolute;
+        top:4px;
+        content: '';
+        left:-26px;
+        width: 11px;
+        height: 10px;
+        background: url('./images/left_arrow.png') no-repeat center center;
+        background-size: 100% 100%;
+      }
+    }
+    .source-icon{
+      top:-10px;
+      width: 50px;
+      height: 43px;
+    }
+    .list-item{
+      position: relative;
+      &::after{
+        position: absolute;
+        top:4px;
+        right:-24px;
+        content: '';
+        width: 11px;
+        height: 10px;
+        transform: rotate(180deg);
+        background: url('./images/left_arrow.png') no-repeat center center;
+        background-size: 100% 100%;
+      }
+      margin-top: -20px;
+      span{
+        &:last-child{
+          color: #00FCFF;
+        }
+      }
+    }
+    .source-icon-top1{
+      background: url('./images/resource-icon1-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top2{
+      background: url('./images/resource-icon2-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top3{
+      background: url('./images/resource-icon3-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-top4{
+      background: url('./images/resource-icon4-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center1{
+      background: url('./images/resource-icon5-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center2{
+      background: url('./images/resource-icon6-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-center3{
+      background: url('./images/resource-icon7-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom1{
+      background: url('./images/resource-icon8-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom2{
+      background: url('./images/resource-icon9-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+    .source-icon-bottom3{
+      background: url('./images/resource-icon10-active.png') center center no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+}
+.main-cont01{
+  width: 512px;
+}
+.main-cont03{
+  margin-bottom: 30px;
+}
+}
+//全国数据质量
+.data-quality-cont{
+   margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .detail-cont{
+      flex: 1;
+      text-align: center;
+      position: relative;
+      .top-content{
+        position: relative;
+        text-align: center;
+        margin: 8px auto;
+        width: 32px;
+        height: 121px;
+        background:url('./images/data-quality-bg.png') no-repeat  center center;
+        background-size:100% 100%;
+        &::before{
+          content: '';
+          width: 74px;
+          height: 30px;
+          bottom: -12px;
+          left: -22px;
+          position: absolute;
+          background:url('./images/data-quality-bottom.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        i{
+          left: -35px;
+          width: 100px;
+          display: block;
+          text-align: center;
+          top: -33px;
+          position: absolute;
+          color: #fff;
+          font-size: 22px;
+          line-height: 25px;
+          font-family: "PangMenZhengDao", sans-serif;
+          font-style: normal;
+        }
+        .midd-icon{
+          width: 32px;
+          height: 12px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: 100;
+        }
+        .midd-icon1{
+          background:url('./images/midd-icon1.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon2{
+          background:url('./images/midd-icon2.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon3{
+          background:url('./images/midd-icon3.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon4{
+          background:url('./images/midd-icon4.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon5{
+          background:url('./images/midd-icon5.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon-pre1{
+          background:url('./images/midd-icon-pre1.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon-pre2{
+          background:url('./images/midd-icon-pre2.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon-pre3{
+          background:url('./images/midd-icon-pre3.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon-pre4{
+          background:url('./images/midd-icon-pre4.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .midd-icon-pre5{
+          background:url('./images/midd-icon-pre5.png') no-repeat  center center;
+          background-size:100% 100%;
+        }
+        .top-cont{
+          width: 32px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: 90;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        .top-cont2{
+          background: linear-gradient( 180deg,#5bd1fb,#0053FF);
+        }
+        // .top-cont2{
+        //   background: linear-gradient( 180deg,#34F6FF,#00D4E4);
+        // }
+        .top-cont3{
+          background: linear-gradient( 180deg,#04CD41,#00C2B5);
+        }
+        .top-cont1{
+          background: linear-gradient( 180deg,#b27df9,#7045D5);
+        }
+        .top-cont4{
+          background: linear-gradient( 180deg,#7cf49b,#00C2FF);
+        }
+        .top-cont5{
+          background: linear-gradient( 180deg,#f0be31,#CC4225);
+        }
+      }
+      .bottom-cont{
+        margin-top: 20px;
+        font-family: "PingFangSC", sans-serif;
+        font-size: 12px;
+        color: #52B9FF;
+        line-height: 17px;
+      }
+    }
+}

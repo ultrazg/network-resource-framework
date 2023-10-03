@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'iconfont message'; /* Project id 3201944 */
+  src: url('iconfont.woff2?t=1650532657446') format('woff2'),
+    url('iconfont.woff?t=1650532657446') format('woff'),
+    url('iconfont.ttf?t=1650532657446') format('truetype');
+}
+
+.iconfont-message {
+  font-family: 'iconfont message', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-el-icon-error:before {
+  content: '\e7c8';
+}
+
+.icon-el-icon-warning:before {
+  content: '\e7dd';
+}
+
+.icon-el-icon-info:before {
+  content: '\e7f6';
+}
+
+.icon-el-icon-success:before {
+  content: '\e7f7';
+}

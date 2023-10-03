@@ -1,0 +1,29 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.container{
+    background: rgba(4,89,138,.38);
+    :global{
+        .ant-col{
+            height: 34px;
+            line-height: 34px;
+        }
+    }
+    .ant-form-text{
+        display: flex;
+        .label{
+            flex: 1;
+            color: #fff;
+            text-align: right;
+        }
+        .text{
+            flex: 3;
+            color: #fff;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,282 @@
+.operation-main-cont{
+  position: relative;
+  width: 450px;
+  margin-top: 0 15px;
+  .all-name{
+    position: absolute;
+    right:0;
+    top:-48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main-cont{
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .main-detail-cont{
+      width: 46%;
+      margin: 0 2% 4% 2%;
+      height: 108px;
+      background: url('./images/operation-bg.png') no-repeat center center;
+      background-size: 100% 100%;
+      h1{
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        text-align: center;
+      }
+      .cont-detail{
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left{
+         width:50%;
+         margin: 0 auto;
+         text-align: center;
+        }
+        .icon-img{
+          width: 57px;
+          height:60px;
+          display: inline-block;
+        }
+        .operation-5G-icon1{
+          background: url('./images/operation-5G-icon1.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-5G-icon2{
+          background: url('./images/operation-5G-icon2.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-5G-icon3{
+          background: url('./images/operation-5G-icon3.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-5G-icon4{
+          background: url('./images/operation-5G-icon4.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-mob-icon1{
+          background: url('./images/operation-mob-icon1.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-mob-icon2{
+          background: url('./images/operation-mob-icon2.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-mob-icon3{
+          background: url('./images/operation-mob-icon3.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-mob-icon4{
+          background: url('./images/operation-mob-icon4.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-VIMS-icon1{
+          background: url('./images/operation-VIMS-icon1.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+        .operation-VIMS-icon2{
+          background: url('./images/operation-VIMS-icon2.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+
+
+        .right{
+          width:50%;
+          p{
+            // width: 70%;
+            margin: 0;
+            text-align: center;
+            &:first-child{
+              margin-bottom: 18px;
+            }
+          }
+          .num{
+            position: relative;
+            font-family: PangMenZhengDao, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            color: #0290E0;
+            &::after,&::before{
+              content: '';
+              position: absolute;
+            }
+            &::before{
+              width:9px;
+              height:7px;
+              left: 0;
+              top: 0;
+              background: url('./images/operation-smallcon3.png') center center no-repeat;
+              background-size: 100% 100%;
+            }
+            &::after{
+              width: 70%;
+              height: 1px;
+              left: 0;
+              bottom:-7px;
+              right: 0;
+              margin: 0 auto;
+              background: url('./images/operation-line.png') center center no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+          .rate{
+            position: relative;
+            font-family: PangMenZhengDao, sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: #65D5FD;
+            &::after,&::before{
+              content: '';
+              position: absolute;
+            }
+            &::before{
+              width: 9px;
+              height:9px;
+              left: 0;
+              top: -7px;
+              background: url('./images/operation-smallcon1.png') center center no-repeat;
+              background-size: 100% 100%;
+            }
+            &::after{
+              width: 8px;
+              height: 10px;
+              right: 6px;
+              top: 0;
+              background: url('./images/operation-smallcon2.png') center center no-repeat;
+              background-size: 100% 100%;
+            }
+          }
+          .rate-up{
+            &::after{
+              transform: rotate(-180deg);
+            }
+          }
+        }
+      }
+    }
+  }
+  .mob-cont{
+    width: 92%;
+    display: flex;
+    height:91px;
+    margin: 20px auto 0;
+    align-items: center;
+    background: url('./images/operation-mob-bg1.png') center center no-repeat;
+    background-size: 100% 100%;
+    .left{
+      width: 57px;;
+      height:60px;
+      margin: 0 18px 0 60px;
+      display: inline-block;
+      background: url('./images/operation-mob-up.png') center center no-repeat;
+      background-size: 100% 100%;
+     }
+     .right{
+      flex: 1;
+      p{
+        width: 54%;
+        margin: 0;
+        &:first-child{
+          margin-bottom: 20px;
+        }
+      }
+      .num{
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #fff;
+        &::after{
+          content: '';
+          position: absolute;
+          width: 144px;
+          height: 2px;
+          left: 0;
+          bottom:-7px;
+          background: url('./images/operation-line.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .total-num{
+        width: 50%;
+        display: inline-block;
+        color: rgba(101,213,253,1);
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "PangMenZhengDao", sans-serif;
+      }
+      .rate{
+        width: 50%;
+        display: inline-block;
+        position: relative;
+        font-family: 'PangMenZhengDao';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #0290E0;
+        opacity: 0.99;
+        &::after{
+          content: '';
+          position: absolute;
+          width: 8px;
+          height: 10px;
+          right: 0;
+          top: 1px;
+          background: url('./images/operation-smallcon2.png') center center no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+      .rate-up{
+        &::after{
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
+  .mob-cont1{
+    width: 92%;
+    height:105px;
+    margin: 9px auto 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/operation-mob-bg2.png') center center no-repeat;
+    background-size: 100% 100%;
+    .left-icon{
+      width: 153px;;
+      height:82px;
+      margin-top: 9px;
+      position: relative;
+      display: inline-block;
+      background: url('./images/operation-bottom.png') center center no-repeat;
+      background-size: 100% 100%;
+      em{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin:0 auto;
+        text-align: center;
+        color: rgba(0,254,255,1);
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "PangMenZhengDao", sans-serif;
+        font-style: normal;
+      }
+     }
+     .right-cont{
+      color: rgba(255,255,255,1);
+      font-size: 14px;
+      font-weight: 400;
+      margin:44px 0 0 10px
+     }
+  }
+}

@@ -1,0 +1,63 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ .container {
+  }
+*/
+.container {
+  width: 380px;
+  ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    li {
+      list-style-type: none;
+      width: 50%;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .listIcon {
+    display: inline-block;
+    background: url('../../images/virtual-list-icon.png') no-repeat;
+    background-size: 100% 100%;
+    width: 24px;
+    height: 18px;
+  }
+  .label {
+    color: #00c5f5;
+    margin: 0 14px 0 10px;
+  }
+  .roomHeader {
+    color: #00ffff;
+    font-size: 14px;
+    margin-bottom: 25px;
+    .dayTitle {
+      margin-right: 10px;
+      padding: 4px;
+      background-image: linear-gradient(
+        90deg,
+        rgba(23, 135, 166, 0.1) 0%,
+        rgba(23, 115, 166, 0.65) 48%,
+        rgba(23, 135, 166, 0.1) 100%
+      );
+      box-shadow: 0 2px 2px 0 rgba(30, 59, 108, 0.34);
+    }
+  }
+  .totalList {
+    border-bottom: 1px solid rgba(19, 78, 179, 0.51);
+  }
+  .portList {
+    p {
+      padding: 10px 0;
+      margin: 0;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.SpinContenContainer{
+    :global{
+        .spinContainer{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.container {
+    width: 100%;
+    // height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .loading{
+        display: flex;
+        height: auto;
+        max-height: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+:global{
+    .ant-spin-container{
+        &::after{
+            background: #000C32;
+        }
+    }
+}

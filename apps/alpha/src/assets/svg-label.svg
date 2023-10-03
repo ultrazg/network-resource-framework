@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108px" height="40px" viewBox="0 0 108 40" version="1.1" preserveAspectRatio="none meet">
+  <title>排名</title>
+  <defs>
+    <linearGradient x1="99.3923801%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+      <stop stop-color="#D8D8D8" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#03064B" stop-opacity="0.802257191" offset="98.5191078%"></stop>
+    </linearGradient>
+    <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+      <stop stop-color="#FFFD00" stop-opacity="0" offset="0%"></stop>
+      <stop stop-color="#FDFF00" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="8.98915309%" x2="50%" y2="95.7016746%" id="linearGradient-3">
+      <stop stop-color="#FFB023" offset="0%"></stop>
+      <stop stop-color="#FFE500" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="50%" y1="8.98915309%" x2="50%" y2="95.7016746%" id="linearGradient-4">
+      <stop stop-color="#FFB023" offset="0%"></stop>
+      <stop stop-color="#FFE500" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="二级页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="BO协同订单治理" transform="translate(-1495.000000, -337.000000)">
+      <g id="编组-2" transform="translate(829.000000, 37.000000)">
+        <g id="排名" transform="translate(666.616341, 300.051724)">
+          <polygon id="路径-45备份-7" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" transform="translate(59.360823, 25.349577) scale(1, -1) translate(-59.360823, -25.349577) " points="12.6837886 11.8918767 12.6837886 29.2396039 23.3329494 38.807278 106.037857 38.807278 106.037857 11.8918767"></polygon>
+          <path d="M13.4706927,13.736831 L20.9980008,18.0754922 L20.9980008,26.752094 L13.4706927,31.0907552 L5.94338465,26.752094 L5.94338465,18.0754922 L13.4706927,13.736831 Z" id="多边形备份" stroke="#FFFFFF" stroke-width="0.5" fill="url(#linearGradient-3)" opacity="0.501640683"></path>
+          <path d="M13.4706927,0.577110224 L24.6366548,7.01305341 L24.6366548,19.8834983 L13.4706927,26.3194415 L2.30473062,19.8834983 L2.30473062,7.01305341 L13.4706927,0.577110224 Z" id="多边形" stroke="#FFFFFF" fill="url(#linearGradient-4)"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

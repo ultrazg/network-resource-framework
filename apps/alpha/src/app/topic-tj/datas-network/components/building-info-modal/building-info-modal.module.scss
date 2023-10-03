@@ -1,0 +1,116 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.container {
+  position: absolute;
+  width: 350px;
+  min-height: 357px;
+  padding: 0 15px;
+  z-index: 999;
+  background: rgba(0, 12, 50, 0.80);
+  border: 1px solid #1757CB;
+  box-shadow: inset 0 0 20px 4px rgba(0, 147, 255, 0.41);
+
+  .close-btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .info-content {
+    width: 100%;
+    height: 100%;
+    padding: 35px 0;
+
+    .info-title {
+      display: flex;
+      width: 100%;
+      height: 20px;
+
+      .info-title-flag {
+        flex: 1;
+        font-family: PingFangSC-SNaNpxibold, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #00FCFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        background-image: linear-gradient(90deg, rgba(23, 135, 166, 0.10) 0%, rgba(23, 115, 166, 0.65) 48%, rgba(23, 135, 166, 0.10) 100%);
+        box-shadow: 0 2px 2px 0 rgba(30, 59, 108, 0.34);
+      }
+
+      .info-title-text {
+        flex: 4;
+        font-weight: 0;
+        font-size: 14px;
+        color: #00FFFF;
+        letter-spacing: 1.4px;
+        line-height: 20px;
+        font-family: FZZDHJW, sans-serif;
+      }
+    }
+
+    .info-list {
+      //height: 20px;
+      display: flex;
+      margin-top: 15px;
+
+      .info-icon {
+        flex: 1;
+        padding-top: 3px;
+
+        img {
+          width: 24px;
+          height: 17px;
+        }
+      }
+
+      .info-title {
+        flex: 5;
+        font-family: PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #00C5F5;
+        letter-spacing: 0;
+        padding-left: 5px;
+      }
+
+      .info-text {
+        flex: 12;
+        font-family: PingFangSC-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+      }
+
+      .info-text-ff {
+        font-family: FZZDHJW, sans-serif;
+        flex: 12;
+        font-weight: 400;
+        font-size: 14px;
+        color: #00FFFF;
+        letter-spacing: 0;
+        line-height: 22px;
+      }
+    }
+
+  }
+}

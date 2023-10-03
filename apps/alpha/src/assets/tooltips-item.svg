@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>默认图标</title>
+    <defs>
+        <linearGradient x1="54.8876908%" y1="31.2385647%" x2="50%" y2="80.9051975%" id="linearGradient-1">
+            <stop stop-color="#00B6FF" offset="0%"></stop>
+            <stop stop-color="#00B7D1" stop-opacity="0" offset="99.9158312%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.8268023%" y1="29.2507721%" x2="59.3376845%" y2="74.5969006%" id="linearGradient-2">
+            <stop stop-color="#00FFE1" offset="0%"></stop>
+            <stop stop-color="#00B7D1" stop-opacity="0" offset="99.9158312%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="二级页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IDC资源-运营健康度" transform="translate(-692.000000, -620.000000)">
+            <g id="编组-5" transform="translate(677.000000, 582.000000)">
+                <g id="编组-11备份" transform="translate(0.000000, 22.000000)">
+                    <g id="默认图标" transform="translate(15.953495, 16.000000)">
+                        <polygon id="路径-83备份" stroke="#00FFE1" stroke-width="0.5" opacity="0.357498896" points="0 8.08078768 9.58443404 14 19.3064632 8.34384372 9.77732076 2.16157536"></polygon>
+                        <polygon id="路径-83" stroke="#00FFE1" stroke-width="0.5" opacity="0.800000012" points="1.09202697 7.58566606 9.58443404 13.0097568 18.4626146 7.80090786 9.58443404 2.16157536"></polygon>
+                        <polygon id="路径-48" fill="#00FDFF" points="4.88077863 2.48878292 9.58443404 5.45951265 14.2880895 2.82867769 9.65323159 0"></polygon>
+                        <polygon id="路径-46" fill="url(#linearGradient-1)" points="4.88077863 2.48878292 9.58443404 5.45951265 9.58443404 12.0136203 4.88077863 9.21067591"></polygon>
+                        <polygon id="路径-47" fill="url(#linearGradient-2)" points="9.58443404 5.45951265 14.2880895 2.82867769 14.2880895 8.92668928 9.58443404 12.0136203"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

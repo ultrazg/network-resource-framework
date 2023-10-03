@@ -1,0 +1,23 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 40"
+     class="design-iconfont">
+  <defs>
+    <filter x="-12.7%" y="-28.8%" width="125.5%" height="157.5%" filterUnits="objectBoundingBox"
+            id="ge9gfekk2__0nlek6zywb">
+      <feMorphology radius="4" in="SourceAlpha" result="shadowSpreadInner1"/>
+      <feGaussianBlur stdDeviation="9.5" in="shadowSpreadInner1" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                   result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0.713996941 0 0 0 0 1 0 0 0 0.617761145 0" in="shadowInnerInner1"/>
+    </filter>
+    <path id="ge9gfekk2__6960hp7jua"
+          d="M0.224911798 213.992259L2.39030915 213 90.573749 213 90.573749 243.272633 81.6753009 253 0.224911798 253z"/>
+  </defs>
+  <g transform="translate(0 -213)" fill="none" fill-rule="evenodd">
+    <use fill-opacity=".8019311" fill="#010E37" xlink:href="#ge9gfekk2__6960hp7jua"/>
+    <use fill="#000" filter="url(#ge9gfekk2__0nlek6zywb)" xlink:href="#ge9gfekk2__6960hp7jua"/>
+    <path stroke="#008AB4"
+          d="M2.49941302,213.5 L90.073749,213.5 L90.073749,243.078436 L81.4550446,252.5 L0.724911798,252.5 L0.724911798,214.313137 L2.49941302,213.5 Z"
+          stroke-linejoin="square"/>
+  </g>
+</svg>
